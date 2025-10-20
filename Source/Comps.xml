@@ -1,0 +1,3426 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="14111.00"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="6"/>
+    <LastIsnFolder val="0"/>
+  </Header>
+
+  <ComponentsRepository>
+    <Components>
+      <Component id="1" name="UserFunctionality">
+        <Description val="Handles the Range, Locate, Sort and Print Data internal events"/>
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <LoadImmediate val="Y"/>
+        <Comment val="This component provides an interface for the user to perform Range, Locate, Sort and Print Data.The component does not expose any object. It has logic units for handling the Range, Locate, Sort and Print Data internal events.The source code for this component is available in the Add_On\UserFunctionality directory, so you can customize the screens of the component as you wish."/>
+        <CompId val="738976342-28670-18720-BFE77D42E"/>
+        <MciFile val="C:\Program Files (x86)\Magicxpa\Studio 4.11\Add_On\UserFunctionality\UserFunctionality.eci"/>
+        <CABINET_FILE val="%EngineDir%Add_On\UserFunctionality\UserFunctionality.ecf"/>
+      </Component>
+      <Component id="3" name="MainControl">
+        <ComponentType val="Magic xpa"/>
+        <Type val="U"/>
+        <LoadImmediate val="Y"/>
+        <LastISN val="667"/>
+        <CompId val="4269075950-42027-16893-B155C8111"/>
+        <MciFile val="D:\PRG411\comp\MainControl.eci"/>
+        <ProjectFile val="D:\git_411\MainControl\MainControl.edp"/>
+        <CABINET_FILE val="D:\PRG411\comp\MainControl.ecf"/>
+        <ComponentModels>
+          <Object>
+            <id val="1"/>
+            <ItemIsn val="1"/>
+            <PublicName val="GAMEN_form_157X40"/>
+          </Object>
+          <Object>
+            <id val="2"/>
+            <ItemIsn val="2"/>
+            <PublicName val="NYUURYOKUGAMMEN_157X40"/>
+          </Object>
+          <Object>
+            <id val="3"/>
+            <ItemIsn val="3"/>
+            <PublicName val="Width"/>
+          </Object>
+          <Object>
+            <id val="4"/>
+            <ItemIsn val="4"/>
+            <PublicName val="Height"/>
+          </Object>
+          <Object>
+            <id val="19"/>
+            <ItemIsn val="5"/>
+            <PublicName val="GAMEN_157X40"/>
+          </Object>
+          <Object>
+            <id val="20"/>
+            <ItemIsn val="6"/>
+            <PublicName val="GAMEN_50X25"/>
+          </Object>
+          <Object>
+            <id val="21"/>
+            <ItemIsn val="7"/>
+            <PublicName val="ESC"/>
+          </Object>
+          <Object>
+            <id val="22"/>
+            <ItemIsn val="8"/>
+            <PublicName val="F1"/>
+          </Object>
+          <Object>
+            <id val="23"/>
+            <ItemIsn val="9"/>
+            <PublicName val="F2"/>
+          </Object>
+          <Object>
+            <id val="24"/>
+            <ItemIsn val="10"/>
+            <PublicName val="F3"/>
+          </Object>
+          <Object>
+            <id val="25"/>
+            <ItemIsn val="11"/>
+            <PublicName val="F4"/>
+          </Object>
+          <Object>
+            <id val="26"/>
+            <ItemIsn val="12"/>
+            <PublicName val="F5"/>
+          </Object>
+          <Object>
+            <id val="27"/>
+            <ItemIsn val="13"/>
+            <PublicName val="F6"/>
+          </Object>
+          <Object>
+            <id val="28"/>
+            <ItemIsn val="14"/>
+            <PublicName val="F7"/>
+          </Object>
+          <Object>
+            <id val="29"/>
+            <ItemIsn val="15"/>
+            <PublicName val="F8"/>
+          </Object>
+          <Object>
+            <id val="30"/>
+            <ItemIsn val="16"/>
+            <PublicName val="F9"/>
+          </Object>
+          <Object>
+            <id val="31"/>
+            <ItemIsn val="17"/>
+            <PublicName val="F10"/>
+          </Object>
+          <Object>
+            <id val="32"/>
+            <ItemIsn val="18"/>
+            <PublicName val="F11"/>
+          </Object>
+          <Object>
+            <id val="33"/>
+            <ItemIsn val="19"/>
+            <PublicName val="F12"/>
+          </Object>
+          <Object>
+            <id val="35"/>
+            <ItemIsn val="20"/>
+            <PublicName val="FlexGrid"/>
+          </Object>
+          <Object>
+            <id val="36"/>
+            <ItemIsn val="21"/>
+            <PublicName val="DataTable"/>
+          </Object>
+          <Object>
+            <id val="37"/>
+            <ItemIsn val="22"/>
+            <PublicName val="FlexGrid_display"/>
+          </Object>
+          <Object>
+            <id val="39"/>
+            <ItemIsn val="23"/>
+            <PublicName val="iPad_height"/>
+          </Object>
+          <Object>
+            <id val="40"/>
+            <ItemIsn val="24"/>
+            <PublicName val="iPad_width"/>
+          </Object>
+          <Object>
+            <id val="41"/>
+            <ItemIsn val="25"/>
+            <PublicName val="iPhone"/>
+          </Object>
+          <Object>
+            <id val="42"/>
+            <ItemIsn val="26"/>
+            <PublicName val="iPhone_STR"/>
+          </Object>
+          <Object>
+            <id val="44"/>
+            <ItemIsn val="27"/>
+            <PublicName val="FORMS_CONTROL"/>
+          </Object>
+          <Object>
+            <id val="45"/>
+            <ItemIsn val="28"/>
+            <PublicName val="HOS.CnView"/>
+          </Object>
+          <Object>
+            <id val="47"/>
+            <ItemIsn val="29"/>
+            <PublicName val="ActionName"/>
+          </Object>
+          <Object>
+            <id val="48"/>
+            <ItemIsn val="30"/>
+            <PublicName val="ActionDateTime"/>
+          </Object>
+          <Object>
+            <id val="49"/>
+            <ItemIsn val="31"/>
+            <PublicName val="APPNAME"/>
+          </Object>
+          <Object>
+            <id val="50"/>
+            <ItemIsn val="32"/>
+            <PublicName val="Requester"/>
+          </Object>
+          <Object>
+            <id val="51"/>
+            <ItemIsn val="33"/>
+            <PublicName val="True/False"/>
+          </Object>
+          <Object>
+            <id val="52"/>
+            <ItemIsn val="34"/>
+            <PublicName val="Yes/No"/>
+          </Object>
+          <Object>
+            <id val="53"/>
+            <ItemIsn val="35"/>
+            <PublicName val="Yes/No/Cancel"/>
+          </Object>
+          <Object>
+            <id val="54"/>
+            <ItemIsn val="36"/>
+            <PublicName val="True/False XA"/>
+          </Object>
+          <Object>
+            <id val="55"/>
+            <ItemIsn val="37"/>
+            <PublicName val="SYURYOFLAG"/>
+          </Object>
+          <Object>
+            <id val="56"/>
+            <ItemIsn val="38"/>
+            <PublicName val="ZANFLAG"/>
+          </Object>
+          <Object>
+            <id val="57"/>
+            <ItemIsn val="39"/>
+            <PublicName val="KYOUSEIZANKOUSHIN"/>
+          </Object>
+          <Object>
+            <id val="58"/>
+            <ItemIsn val="40"/>
+            <PublicName val="ZANSYUSEIBIT"/>
+          </Object>
+          <Object>
+            <id val="59"/>
+            <ItemIsn val="41"/>
+            <PublicName val="BUMONKANRI"/>
+          </Object>
+          <Object>
+            <id val="60"/>
+            <ItemIsn val="42"/>
+            <PublicName val="ZIKKOUKYOKAKENRI"/>
+          </Object>
+          <Object>
+            <id val="61"/>
+            <ItemIsn val="43"/>
+            <PublicName val="ADSERVER"/>
+          </Object>
+          <Object>
+            <id val="62"/>
+            <ItemIsn val="44"/>
+            <PublicName val="SUUCHI"/>
+          </Object>
+          <Object>
+            <id val="63"/>
+            <ItemIsn val="45"/>
+            <PublicName val="KETASUU"/>
+          </Object>
+          <Object>
+            <id val="65"/>
+            <ItemIsn val="46"/>
+            <PublicName val="TOUROKUNO"/>
+          </Object>
+          <Object>
+            <id val="66"/>
+            <ItemIsn val="47"/>
+            <PublicName val="TOUROKUBI"/>
+          </Object>
+          <Object>
+            <id val="67"/>
+            <ItemIsn val="48"/>
+            <PublicName val="TOUROKUZIKAN"/>
+          </Object>
+          <Object>
+            <id val="68"/>
+            <ItemIsn val="49"/>
+            <PublicName val="TOUROKUCD"/>
+          </Object>
+          <Object>
+            <id val="69"/>
+            <ItemIsn val="50"/>
+            <PublicName val="TOUROKUID"/>
+          </Object>
+          <Object>
+            <id val="70"/>
+            <ItemIsn val="51"/>
+            <PublicName val="KOUSHINUBI"/>
+          </Object>
+          <Object>
+            <id val="71"/>
+            <ItemIsn val="52"/>
+            <PublicName val="KOUSHINZIKAN"/>
+          </Object>
+          <Object>
+            <id val="72"/>
+            <ItemIsn val="53"/>
+            <PublicName val="KOUSHINTANMATSU"/>
+          </Object>
+          <Object>
+            <id val="73"/>
+            <ItemIsn val="54"/>
+            <PublicName val="KOUSHINCD"/>
+          </Object>
+          <Object>
+            <id val="74"/>
+            <ItemIsn val="55"/>
+            <PublicName val="KOUSHINID"/>
+          </Object>
+          <Object>
+            <id val="76"/>
+            <ItemIsn val="56"/>
+            <PublicName val="SYSSTART"/>
+          </Object>
+          <Object>
+            <id val="77"/>
+            <ItemIsn val="57"/>
+            <PublicName val="SYSEND"/>
+          </Object>
+          <Object>
+            <id val="33555149"/>
+            <ItemIsn val="58"/>
+            <PublicName val="LOGINCD"/>
+          </Object>
+          <Object>
+            <id val="79"/>
+            <ItemIsn val="59"/>
+            <PublicName val="KIGYOUCD"/>
+          </Object>
+          <Object>
+            <id val="80"/>
+            <ItemIsn val="60"/>
+            <PublicName val="ZIGYOUBUKBN"/>
+          </Object>
+          <Object>
+            <id val="81"/>
+            <ItemIsn val="61"/>
+            <PublicName val="KEYCD"/>
+          </Object>
+          <Object>
+            <id val="82"/>
+            <ItemIsn val="62"/>
+            <PublicName val="KAISYAMEI"/>
+          </Object>
+          <Object>
+            <id val="83"/>
+            <ItemIsn val="63"/>
+            <PublicName val="YAKUSYOKUMEI"/>
+          </Object>
+          <Object>
+            <id val="84"/>
+            <ItemIsn val="64"/>
+            <PublicName val="DAIHYOUSYAMEI"/>
+          </Object>
+          <Object>
+            <id val="85"/>
+            <ItemIsn val="65"/>
+            <PublicName val="YUUBINBANGOU"/>
+          </Object>
+          <Object>
+            <id val="86"/>
+            <ItemIsn val="66"/>
+            <PublicName val="ZYUUSYO"/>
+          </Object>
+          <Object>
+            <id val="87"/>
+            <ItemIsn val="67"/>
+            <PublicName val="DENWABANGOU"/>
+          </Object>
+          <Object>
+            <id val="88"/>
+            <ItemIsn val="68"/>
+            <PublicName val="FAXBANGOU"/>
+          </Object>
+          <Object>
+            <id val="89"/>
+            <ItemIsn val="69"/>
+            <PublicName val="URL"/>
+          </Object>
+          <Object>
+            <id val="90"/>
+            <ItemIsn val="70"/>
+            <PublicName val="E-MAIL"/>
+          </Object>
+          <Object>
+            <id val="91"/>
+            <ItemIsn val="71"/>
+            <PublicName val="ZIGYOUBUMEI"/>
+          </Object>
+          <Object>
+            <id val="92"/>
+            <ItemIsn val="72"/>
+            <PublicName val="TORIHIKIKOUZA"/>
+          </Object>
+          <Object>
+            <id val="93"/>
+            <ItemIsn val="73"/>
+            <PublicName val="DOMAINNAME"/>
+          </Object>
+          <Object>
+            <id val="94"/>
+            <ItemIsn val="74"/>
+            <PublicName val="NENDONINSHIKI"/>
+          </Object>
+          <Object>
+            <id val="95"/>
+            <ItemIsn val="75"/>
+            <PublicName val="SYOUGOUZYUNZYO"/>
+          </Object>
+          <Object>
+            <id val="96"/>
+            <ItemIsn val="76"/>
+            <PublicName val="SEARCHZYUNZYO"/>
+          </Object>
+          <Object>
+            <id val="97"/>
+            <ItemIsn val="77"/>
+            <PublicName val="WAREKIHYOUZI"/>
+          </Object>
+          <Object>
+            <id val="98"/>
+            <ItemIsn val="78"/>
+            <PublicName val="HIRITSU1"/>
+          </Object>
+          <Object>
+            <id val="99"/>
+            <ItemIsn val="79"/>
+            <PublicName val="HIRITSU2"/>
+          </Object>
+          <Object>
+            <id val="100"/>
+            <ItemIsn val="80"/>
+            <PublicName val="CONSTSYSTEMID"/>
+          </Object>
+          <Object>
+            <id val="101"/>
+            <ItemIsn val="81"/>
+            <PublicName val="CONSTCD"/>
+          </Object>
+          <Object>
+            <id val="102"/>
+            <ItemIsn val="82"/>
+            <PublicName val="CONSTMEI"/>
+          </Object>
+          <Object>
+            <id val="103"/>
+            <ItemIsn val="83"/>
+            <PublicName val="LABEL"/>
+          </Object>
+          <Object>
+            <id val="104"/>
+            <ItemIsn val="84"/>
+            <PublicName val="TANMATSUNO"/>
+          </Object>
+          <Object>
+            <id val="105"/>
+            <ItemIsn val="85"/>
+            <PublicName val="TANMATSUMEI"/>
+          </Object>
+          <Object>
+            <id val="106"/>
+            <ItemIsn val="86"/>
+            <PublicName val="MACHINEMEI"/>
+          </Object>
+          <Object>
+            <id val="107"/>
+            <ItemIsn val="87"/>
+            <PublicName val="WORKFILEFOLDER"/>
+          </Object>
+          <Object>
+            <id val="109"/>
+            <ItemIsn val="88"/>
+            <PublicName val="ERRORCODE"/>
+          </Object>
+          <Object>
+            <id val="110"/>
+            <ItemIsn val="89"/>
+            <PublicName val="ERRORMESSAGE"/>
+          </Object>
+          <Object>
+            <id val="111"/>
+            <ItemIsn val="90"/>
+            <PublicName val="OFFSET"/>
+          </Object>
+          <Object>
+            <id val="112"/>
+            <ItemIsn val="91"/>
+            <PublicName val="MESSAGE"/>
+          </Object>
+          <Object>
+            <id val="113"/>
+            <ItemIsn val="92"/>
+            <PublicName val="IMAGEFILE"/>
+          </Object>
+          <Object>
+            <id val="114"/>
+            <ItemIsn val="93"/>
+            <PublicName val="FILEKBN"/>
+          </Object>
+          <Object>
+            <id val="115"/>
+            <ItemIsn val="94"/>
+            <PublicName val="IMAGEFILEPATH"/>
+          </Object>
+          <Object>
+            <id val="116"/>
+            <ItemIsn val="95"/>
+            <PublicName val="KAKUNIN_STR"/>
+          </Object>
+          <Object>
+            <id val="117"/>
+            <ItemIsn val="96"/>
+            <PublicName val="KAKUNIN_BUTTON"/>
+          </Object>
+          <Object>
+            <id val="119"/>
+            <ItemIsn val="97"/>
+            <PublicName val="SYORIMODE"/>
+          </Object>
+          <Object>
+            <id val="120"/>
+            <ItemIsn val="98"/>
+            <PublicName val="SCREENNO"/>
+          </Object>
+          <Object>
+            <id val="121"/>
+            <ItemIsn val="99"/>
+            <PublicName val="STYLENO"/>
+          </Object>
+          <Object>
+            <id val="122"/>
+            <ItemIsn val="100"/>
+            <PublicName val="STYLEMEI"/>
+          </Object>
+          <Object>
+            <id val="123"/>
+            <ItemIsn val="101"/>
+            <PublicName val="PREVIEW"/>
+          </Object>
+          <Object>
+            <id val="124"/>
+            <ItemIsn val="102"/>
+            <PublicName val="PRINTERDIALOG"/>
+          </Object>
+          <Object>
+            <id val="125"/>
+            <ItemIsn val="103"/>
+            <PublicName val="DEFAULTSTYLE"/>
+          </Object>
+          <Object>
+            <id val="126"/>
+            <ItemIsn val="104"/>
+            <PublicName val="PAPERSIZE"/>
+          </Object>
+          <Object>
+            <id val="127"/>
+            <ItemIsn val="105"/>
+            <PublicName val="PAPERDIRECTION"/>
+          </Object>
+          <Object>
+            <id val="128"/>
+            <ItemIsn val="106"/>
+            <PublicName val="PRINTERNO"/>
+          </Object>
+          <Object>
+            <id val="129"/>
+            <ItemIsn val="107"/>
+            <PublicName val="PRINTERPATTERNNO"/>
+          </Object>
+          <Object>
+            <id val="130"/>
+            <ItemIsn val="108"/>
+            <PublicName val="FOLDER"/>
+          </Object>
+          <Object>
+            <id val="131"/>
+            <ItemIsn val="109"/>
+            <PublicName val="IMAGE_ACTION"/>
+          </Object>
+          <Object>
+            <id val="132"/>
+            <ItemIsn val="110"/>
+            <PublicName val="COLORNO"/>
+          </Object>
+          <Object>
+            <id val="134"/>
+            <ItemIsn val="111"/>
+            <PublicName val="DATAXML"/>
+          </Object>
+          <Object>
+            <id val="135"/>
+            <ItemIsn val="112"/>
+            <PublicName val="DCXFILE"/>
+          </Object>
+          <Object>
+            <id val="136"/>
+            <ItemIsn val="113"/>
+            <PublicName val="PDFPATH"/>
+          </Object>
+          <Object>
+            <id val="137"/>
+            <ItemIsn val="114"/>
+            <PublicName val="CONFPASSWORD"/>
+          </Object>
+          <Object>
+            <id val="138"/>
+            <ItemIsn val="115"/>
+            <PublicName val="OPENPASSWORD"/>
+          </Object>
+          <Object>
+            <id val="139"/>
+            <ItemIsn val="116"/>
+            <PublicName val="RSIPATH"/>
+          </Object>
+          <Object>
+            <id val="140"/>
+            <ItemIsn val="117"/>
+            <PublicName val="MAILADDRESS"/>
+          </Object>
+          <Object>
+            <id val="141"/>
+            <ItemIsn val="118"/>
+            <PublicName val="MAILSUBJECT"/>
+          </Object>
+          <Object>
+            <id val="142"/>
+            <ItemIsn val="119"/>
+            <PublicName val="MAILBODY"/>
+          </Object>
+          <Object>
+            <id val="143"/>
+            <ItemIsn val="120"/>
+            <PublicName val="MAILSERVER"/>
+          </Object>
+          <Object>
+            <id val="144"/>
+            <ItemIsn val="121"/>
+            <PublicName val="MAILPORT"/>
+          </Object>
+          <Object>
+            <id val="145"/>
+            <ItemIsn val="122"/>
+            <PublicName val="MAILUSER"/>
+          </Object>
+          <Object>
+            <id val="146"/>
+            <ItemIsn val="123"/>
+            <PublicName val="MAILPASS"/>
+          </Object>
+          <Object>
+            <id val="33555147"/>
+            <ItemIsn val="124"/>
+            <PublicName val="MAILATTACHMENT"/>
+          </Object>
+          <Object>
+            <id val="147"/>
+            <ItemIsn val="125"/>
+            <PublicName val="PRINTERNAME"/>
+          </Object>
+          <Object>
+            <id val="148"/>
+            <ItemIsn val="126"/>
+            <PublicName val="PRINTWIDTH"/>
+          </Object>
+          <Object>
+            <id val="149"/>
+            <ItemIsn val="127"/>
+            <PublicName val="PRINTHEIGHT"/>
+          </Object>
+          <Object>
+            <id val="150"/>
+            <ItemIsn val="128"/>
+            <PublicName val="PLACENO"/>
+          </Object>
+          <Object>
+            <id val="151"/>
+            <ItemIsn val="129"/>
+            <PublicName val="UNIT"/>
+          </Object>
+          <Object>
+            <id val="152"/>
+            <ItemIsn val="130"/>
+            <PublicName val="SHEETMAISUU"/>
+          </Object>
+          <Object>
+            <id val="153"/>
+            <ItemIsn val="131"/>
+            <PublicName val="TIFFPATH"/>
+          </Object>
+          <Object>
+            <id val="154"/>
+            <ItemIsn val="132"/>
+            <PublicName val="FILEID"/>
+          </Object>
+          <Object>
+            <id val="156"/>
+            <ItemIsn val="133"/>
+            <PublicName val="HIDUKE1"/>
+          </Object>
+          <Object>
+            <id val="157"/>
+            <ItemIsn val="134"/>
+            <PublicName val="HIDUKE2"/>
+          </Object>
+          <Object>
+            <id val="158"/>
+            <ItemIsn val="135"/>
+            <PublicName val="ZIKAN"/>
+          </Object>
+          <Object>
+            <id val="159"/>
+            <ItemIsn val="136"/>
+            <PublicName val="NEN"/>
+          </Object>
+          <Object>
+            <id val="160"/>
+            <ItemIsn val="137"/>
+            <PublicName val="TSUKI"/>
+          </Object>
+          <Object>
+            <id val="161"/>
+            <ItemIsn val="138"/>
+            <PublicName val="HINICHI"/>
+          </Object>
+          <Object>
+            <id val="162"/>
+            <ItemIsn val="139"/>
+            <PublicName val="KISYUBI"/>
+          </Object>
+          <Object>
+            <id val="163"/>
+            <ItemIsn val="140"/>
+            <PublicName val="ZYUCHUBI"/>
+          </Object>
+          <Object>
+            <id val="164"/>
+            <ItemIsn val="141"/>
+            <PublicName val="ZYUCHUNOUKI"/>
+          </Object>
+          <Object>
+            <id val="165"/>
+            <ItemIsn val="142"/>
+            <PublicName val="SYANAINOUKI"/>
+          </Object>
+          <Object>
+            <id val="166"/>
+            <ItemIsn val="143"/>
+            <PublicName val="SEIZOUNOUKI"/>
+          </Object>
+          <Object>
+            <id val="167"/>
+            <ItemIsn val="144"/>
+            <PublicName val="HONRAINOUKI"/>
+          </Object>
+          <Object>
+            <id val="168"/>
+            <ItemIsn val="145"/>
+            <PublicName val="HACHUUNOUKI"/>
+          </Object>
+          <Object>
+            <id val="169"/>
+            <ItemIsn val="146"/>
+            <PublicName val="HACHUBI"/>
+          </Object>
+          <Object>
+            <id val="170"/>
+            <ItemIsn val="147"/>
+            <PublicName val="CHUMONSYOINSATSUBI"/>
+          </Object>
+          <Object>
+            <id val="171"/>
+            <ItemIsn val="148"/>
+            <PublicName val="NOUKIKAITOUBI"/>
+          </Object>
+          <Object>
+            <id val="172"/>
+            <ItemIsn val="149"/>
+            <PublicName val="KAITOUNOUKI"/>
+          </Object>
+          <Object>
+            <id val="173"/>
+            <ItemIsn val="150"/>
+            <PublicName val="NOUNYUBI"/>
+          </Object>
+          <Object>
+            <id val="174"/>
+            <ItemIsn val="151"/>
+            <PublicName val="KENSYUUBI"/>
+          </Object>
+          <Object>
+            <id val="175"/>
+            <ItemIsn val="152"/>
+            <PublicName val="NICHIZISHIMESYORIBI"/>
+          </Object>
+          <Object>
+            <id val="176"/>
+            <ItemIsn val="153"/>
+            <PublicName val="SHIHARAISHIMEKIRIBI"/>
+          </Object>
+          <Object>
+            <id val="177"/>
+            <ItemIsn val="154"/>
+            <PublicName val="SHIHARAISHIMESYORIBI"/>
+          </Object>
+          <Object>
+            <id val="178"/>
+            <ItemIsn val="155"/>
+            <PublicName val="SYUKKASHIZIBI"/>
+          </Object>
+          <Object>
+            <id val="179"/>
+            <ItemIsn val="156"/>
+            <PublicName val="SYUKKABI"/>
+          </Object>
+          <Object>
+            <id val="180"/>
+            <ItemIsn val="157"/>
+            <PublicName val="URIAGEBI"/>
+          </Object>
+          <Object>
+            <id val="181"/>
+            <ItemIsn val="158"/>
+            <PublicName val="SEIKYUBI"/>
+          </Object>
+          <Object>
+            <id val="182"/>
+            <ItemIsn val="159"/>
+            <PublicName val="SEIKYUSHIMEKIRIBI"/>
+          </Object>
+          <Object>
+            <id val="183"/>
+            <ItemIsn val="160"/>
+            <PublicName val="SEIKYUSHIMESYORIBI"/>
+          </Object>
+          <Object>
+            <id val="184"/>
+            <ItemIsn val="161"/>
+            <PublicName val="SEIKYUSHIMEKAKUTEIBI"/>
+          </Object>
+          <Object>
+            <id val="185"/>
+            <ItemIsn val="162"/>
+            <PublicName val="UKEIREBI"/>
+          </Object>
+          <Object>
+            <id val="186"/>
+            <ItemIsn val="163"/>
+            <PublicName val="KANRYOUBI"/>
+          </Object>
+          <Object>
+            <id val="187"/>
+            <ItemIsn val="164"/>
+            <PublicName val="SAGYOUBI"/>
+          </Object>
+          <Object>
+            <id val="188"/>
+            <ItemIsn val="165"/>
+            <PublicName val="SHIZISYOHAKKOUBI"/>
+          </Object>
+          <Object>
+            <id val="189"/>
+            <ItemIsn val="166"/>
+            <PublicName val="NYUKINBI"/>
+          </Object>
+          <Object>
+            <id val="190"/>
+            <ItemIsn val="167"/>
+            <PublicName val="TANAOROSHIBI"/>
+          </Object>
+          <Object>
+            <id val="191"/>
+            <ItemIsn val="168"/>
+            <PublicName val="TEKIYOUBI"/>
+          </Object>
+          <Object>
+            <id val="192"/>
+            <ItemIsn val="169"/>
+            <PublicName val="CHAKUSYUBI"/>
+          </Object>
+          <Object>
+            <id val="193"/>
+            <ItemIsn val="170"/>
+            <PublicName val="NYUUKINYOTEIBI"/>
+          </Object>
+          <Object>
+            <id val="194"/>
+            <ItemIsn val="171"/>
+            <PublicName val="SAISHINNYUUKOBI"/>
+          </Object>
+          <Object>
+            <id val="195"/>
+            <ItemIsn val="172"/>
+            <PublicName val="SAISHINSYUKKOBI"/>
+          </Object>
+          <Object>
+            <id val="196"/>
+            <ItemIsn val="173"/>
+            <PublicName val="KANRYOUZIKOKU"/>
+          </Object>
+          <Object>
+            <id val="197"/>
+            <ItemIsn val="174"/>
+            <PublicName val="DATE_INDEX"/>
+          </Object>
+          <Object>
+            <id val="198"/>
+            <ItemIsn val="175"/>
+            <PublicName val="KADOUNISUU"/>
+          </Object>
+          <Object>
+            <id val="200"/>
+            <ItemIsn val="176"/>
+            <PublicName val="NENDO"/>
+          </Object>
+          <Object>
+            <id val="201"/>
+            <ItemIsn val="177"/>
+            <PublicName val="NENGETSUDO"/>
+          </Object>
+          <Object>
+            <id val="202"/>
+            <ItemIsn val="178"/>
+            <PublicName val="TSUKISUU"/>
+          </Object>
+          <Object>
+            <id val="204"/>
+            <ItemIsn val="179"/>
+            <PublicName val="SHIMEBI"/>
+          </Object>
+          <Object>
+            <id val="205"/>
+            <ItemIsn val="180"/>
+            <PublicName val="SHIMEGROUP"/>
+          </Object>
+          <Object>
+            <id val="206"/>
+            <ItemIsn val="181"/>
+            <PublicName val="SHIIREDENPYOKBN"/>
+          </Object>
+          <Object>
+            <id val="207"/>
+            <ItemIsn val="182"/>
+            <PublicName val="URIAGEDENPYOKBN"/>
+          </Object>
+          <Object>
+            <id val="208"/>
+            <ItemIsn val="183"/>
+            <PublicName val="ZEIKBN"/>
+          </Object>
+          <Object>
+            <id val="209"/>
+            <ItemIsn val="184"/>
+            <PublicName val="ZEIHASUU"/>
+          </Object>
+          <Object>
+            <id val="210"/>
+            <ItemIsn val="185"/>
+            <PublicName val="ZEIKBN_KAKE"/>
+          </Object>
+          <Object>
+            <id val="211"/>
+            <ItemIsn val="186"/>
+            <PublicName val="ZEIHASUU_KAKE"/>
+          </Object>
+          <Object>
+            <id val="212"/>
+            <ItemIsn val="187"/>
+            <PublicName val="ZEIKBN_GENKIN"/>
+          </Object>
+          <Object>
+            <id val="213"/>
+            <ItemIsn val="188"/>
+            <PublicName val="ZEIHASUU_GENKIN"/>
+          </Object>
+          <Object>
+            <id val="214"/>
+            <ItemIsn val="189"/>
+            <PublicName val="URIAGKUB"/>
+          </Object>
+          <Object>
+            <id val="215"/>
+            <ItemIsn val="190"/>
+            <PublicName val="ZEIKUBKA"/>
+          </Object>
+          <Object>
+            <id val="216"/>
+            <ItemIsn val="191"/>
+            <PublicName val="ZEIHASKA"/>
+          </Object>
+          <Object>
+            <id val="217"/>
+            <ItemIsn val="192"/>
+            <PublicName val="ZEIKUBGE"/>
+          </Object>
+          <Object>
+            <id val="218"/>
+            <ItemIsn val="193"/>
+            <PublicName val="ZEIHASGE"/>
+          </Object>
+          <Object>
+            <id val="219"/>
+            <ItemIsn val="194"/>
+            <PublicName val="ZEIRITSU_CALC"/>
+          </Object>
+          <Object>
+            <id val="220"/>
+            <ItemIsn val="195"/>
+            <PublicName val="ZEIRITSU_VIEW"/>
+          </Object>
+          <Object>
+            <id val="221"/>
+            <ItemIsn val="196"/>
+            <PublicName val="TANKAKANRI"/>
+          </Object>
+          <Object>
+            <id val="222"/>
+            <ItemIsn val="197"/>
+            <PublicName val="TANKAGROUP"/>
+          </Object>
+          <Object>
+            <id val="223"/>
+            <ItemIsn val="198"/>
+            <PublicName val="TANKAHASUU"/>
+          </Object>
+          <Object>
+            <id val="224"/>
+            <ItemIsn val="199"/>
+            <PublicName val="KINGAKUHASUU"/>
+          </Object>
+          <Object>
+            <id val="225"/>
+            <ItemIsn val="200"/>
+            <PublicName val="KAKERITSU"/>
+          </Object>
+          <Object>
+            <id val="226"/>
+            <ItemIsn val="201"/>
+            <PublicName val="KOUSHINTIMING"/>
+          </Object>
+          <Object>
+            <id val="227"/>
+            <ItemIsn val="202"/>
+            <PublicName val="ZAIKOHYOUKAHOU"/>
+          </Object>
+          <Object>
+            <id val="228"/>
+            <ItemIsn val="203"/>
+            <PublicName val="TANKATOUROKU"/>
+          </Object>
+          <Object>
+            <id val="229"/>
+            <ItemIsn val="204"/>
+            <PublicName val="KAKESYOUHIZEIKBN"/>
+          </Object>
+          <Object>
+            <id val="230"/>
+            <ItemIsn val="205"/>
+            <PublicName val="KEISANTAISYOUKINGAKU"/>
+          </Object>
+          <Object>
+            <id val="231"/>
+            <ItemIsn val="206"/>
+            <PublicName val="SYOUHIZEI"/>
+          </Object>
+          <Object>
+            <id val="232"/>
+            <ItemIsn val="207"/>
+            <PublicName val="YUUKOUSYOUSUUKETA"/>
+          </Object>
+          <Object>
+            <id val="234"/>
+            <ItemIsn val="208"/>
+            <PublicName val="NYUKINKIJYUNGAKU"/>
+          </Object>
+          <Object>
+            <id val="235"/>
+            <ItemIsn val="209"/>
+            <PublicName val="NYUKINYOTEITUKI"/>
+          </Object>
+          <Object>
+            <id val="236"/>
+            <ItemIsn val="210"/>
+            <PublicName val="NYUKINYOTEIBI"/>
+          </Object>
+          <Object>
+            <id val="237"/>
+            <ItemIsn val="211"/>
+            <PublicName val="NYUKINHOUHOU"/>
+          </Object>
+          <Object>
+            <id val="238"/>
+            <ItemIsn val="212"/>
+            <PublicName val="MASKAZEIKUB"/>
+          </Object>
+          <Object>
+            <id val="240"/>
+            <ItemIsn val="213"/>
+            <PublicName val="MEISAIPRINT"/>
+          </Object>
+          <Object>
+            <id val="241"/>
+            <ItemIsn val="214"/>
+            <PublicName val="GOUKEISEIKYUPRINT"/>
+          </Object>
+          <Object>
+            <id val="242"/>
+            <ItemIsn val="215"/>
+            <PublicName val="SEIKYUPRINT"/>
+          </Object>
+          <Object>
+            <id val="243"/>
+            <ItemIsn val="216"/>
+            <PublicName val="CHUUMONPRINT"/>
+          </Object>
+          <Object>
+            <id val="245"/>
+            <ItemIsn val="217"/>
+            <PublicName val="SYSTEMID"/>
+          </Object>
+          <Object>
+            <id val="246"/>
+            <ItemIsn val="218"/>
+            <PublicName val="MENUNO"/>
+          </Object>
+          <Object>
+            <id val="247"/>
+            <ItemIsn val="219"/>
+            <PublicName val="MENUMEI"/>
+          </Object>
+          <Object>
+            <id val="248"/>
+            <ItemIsn val="220"/>
+            <PublicName val="COMPORNENT"/>
+          </Object>
+          <Object>
+            <id val="249"/>
+            <ItemIsn val="221"/>
+            <PublicName val="PGNAME"/>
+          </Object>
+          <Object>
+            <id val="250"/>
+            <ItemIsn val="222"/>
+            <PublicName val="CTXID"/>
+          </Object>
+          <Object>
+            <id val="251"/>
+            <ItemIsn val="223"/>
+            <PublicName val="SESSIONID"/>
+          </Object>
+          <Object>
+            <id val="253"/>
+            <ItemIsn val="224"/>
+            <PublicName val="RECORDKBN1"/>
+          </Object>
+          <Object>
+            <id val="254"/>
+            <ItemIsn val="225"/>
+            <PublicName val="RECORDKBN3"/>
+          </Object>
+          <Object>
+            <id val="256"/>
+            <ItemIsn val="226"/>
+            <PublicName val="TANTOUCD"/>
+          </Object>
+          <Object>
+            <id val="257"/>
+            <ItemIsn val="227"/>
+            <PublicName val="TANTOUKANA"/>
+          </Object>
+          <Object>
+            <id val="258"/>
+            <ItemIsn val="228"/>
+            <PublicName val="TANTOUMEI"/>
+          </Object>
+          <Object>
+            <id val="259"/>
+            <ItemIsn val="229"/>
+            <PublicName val="TANTOURYAKU"/>
+          </Object>
+          <Object>
+            <id val="260"/>
+            <ItemIsn val="230"/>
+            <PublicName val="EIGYOTANTOUCD"/>
+          </Object>
+          <Object>
+            <id val="261"/>
+            <ItemIsn val="231"/>
+            <PublicName val="SHIZAITANTOUCD"/>
+          </Object>
+          <Object>
+            <id val="262"/>
+            <ItemIsn val="232"/>
+            <PublicName val="TOKTANME"/>
+          </Object>
+          <Object>
+            <id val="263"/>
+            <ItemIsn val="233"/>
+            <PublicName val="USERID"/>
+          </Object>
+          <Object>
+            <id val="264"/>
+            <ItemIsn val="234"/>
+            <PublicName val="PASSWORD"/>
+          </Object>
+          <Object>
+            <id val="265"/>
+            <ItemIsn val="235"/>
+            <PublicName val="USERNAME"/>
+          </Object>
+          <Object>
+            <id val="267"/>
+            <ItemIsn val="236"/>
+            <PublicName val="BUMONCD"/>
+          </Object>
+          <Object>
+            <id val="268"/>
+            <ItemIsn val="237"/>
+            <PublicName val="BUMONKANA"/>
+          </Object>
+          <Object>
+            <id val="269"/>
+            <ItemIsn val="238"/>
+            <PublicName val="BUMONMEI"/>
+          </Object>
+          <Object>
+            <id val="270"/>
+            <ItemIsn val="239"/>
+            <PublicName val="BUMONRYAKU"/>
+          </Object>
+          <Object>
+            <id val="271"/>
+            <ItemIsn val="240"/>
+            <PublicName val="BUMONKAISOU"/>
+          </Object>
+          <Object>
+            <id val="273"/>
+            <ItemIsn val="241"/>
+            <PublicName val="SHIIRECD"/>
+          </Object>
+          <Object>
+            <id val="274"/>
+            <ItemIsn val="242"/>
+            <PublicName val="SHIHARAICD"/>
+          </Object>
+          <Object>
+            <id val="275"/>
+            <ItemIsn val="243"/>
+            <PublicName val="SHIIREKANA"/>
+          </Object>
+          <Object>
+            <id val="276"/>
+            <ItemIsn val="244"/>
+            <PublicName val="SHIIREMEI"/>
+          </Object>
+          <Object>
+            <id val="277"/>
+            <ItemIsn val="245"/>
+            <PublicName val="SHIIRERYAKU"/>
+          </Object>
+          <Object>
+            <id val="278"/>
+            <ItemIsn val="246"/>
+            <PublicName val="BUSYOTANTOUMEI"/>
+          </Object>
+          <Object>
+            <id val="279"/>
+            <ItemIsn val="247"/>
+            <PublicName val="BUSYOMEI"/>
+          </Object>
+          <Object>
+            <id val="280"/>
+            <ItemIsn val="248"/>
+            <PublicName val="SHIKYUKBN"/>
+          </Object>
+          <Object>
+            <id val="281"/>
+            <ItemIsn val="249"/>
+            <PublicName val="SHIIREKBN"/>
+          </Object>
+          <Object>
+            <id val="282"/>
+            <ItemIsn val="250"/>
+            <PublicName val="UKEIRESAKICD"/>
+          </Object>
+          <Object>
+            <id val="283"/>
+            <ItemIsn val="251"/>
+            <PublicName val="ZIKOUTEI"/>
+          </Object>
+          <Object>
+            <id val="284"/>
+            <ItemIsn val="252"/>
+            <PublicName val="ZIGYOU"/>
+          </Object>
+          <Object>
+            <id val="286"/>
+            <ItemIsn val="253"/>
+            <PublicName val="TOKUICD"/>
+          </Object>
+          <Object>
+            <id val="287"/>
+            <ItemIsn val="254"/>
+            <PublicName val="SEIKYUCD"/>
+          </Object>
+          <Object>
+            <id val="288"/>
+            <ItemIsn val="255"/>
+            <PublicName val="TOKUIKANA"/>
+          </Object>
+          <Object>
+            <id val="289"/>
+            <ItemIsn val="256"/>
+            <PublicName val="TOKUIMEI"/>
+          </Object>
+          <Object>
+            <id val="290"/>
+            <ItemIsn val="257"/>
+            <PublicName val="TOKUIRYAKU"/>
+          </Object>
+          <Object>
+            <id val="291"/>
+            <ItemIsn val="258"/>
+            <PublicName val="NOUNYUCD"/>
+          </Object>
+          <Object>
+            <id val="292"/>
+            <ItemIsn val="259"/>
+            <PublicName val="NOUNYUKANA"/>
+          </Object>
+          <Object>
+            <id val="293"/>
+            <ItemIsn val="260"/>
+            <PublicName val="NOUNYUMEI"/>
+          </Object>
+          <Object>
+            <id val="294"/>
+            <ItemIsn val="261"/>
+            <PublicName val="NOUNYURYAKU"/>
+          </Object>
+          <Object>
+            <id val="295"/>
+            <ItemIsn val="262"/>
+            <PublicName val="TOKUIKBN"/>
+          </Object>
+          <Object>
+            <id val="296"/>
+            <ItemIsn val="263"/>
+            <PublicName val="KEISYOU"/>
+          </Object>
+          <Object>
+            <id val="297"/>
+            <ItemIsn val="264"/>
+            <PublicName val="GINKOUCD"/>
+          </Object>
+          <Object>
+            <id val="298"/>
+            <ItemIsn val="265"/>
+            <PublicName val="SITENCD"/>
+          </Object>
+          <Object>
+            <id val="299"/>
+            <ItemIsn val="266"/>
+            <PublicName val="HAISOUCD"/>
+          </Object>
+          <Object>
+            <id val="300"/>
+            <ItemIsn val="267"/>
+            <PublicName val="BASYOKUB"/>
+          </Object>
+          <Object>
+            <id val="301"/>
+            <ItemIsn val="268"/>
+            <PublicName val="ZAIKBACD"/>
+          </Object>
+          <Object>
+            <id val="302"/>
+            <ItemIsn val="269"/>
+            <PublicName val="NYUKZYKB"/>
+          </Object>
+          <Object>
+            <id val="303"/>
+            <ItemIsn val="270"/>
+            <PublicName val="TEGATAS"/>
+          </Object>
+          <Object>
+            <id val="304"/>
+            <ItemIsn val="271"/>
+            <PublicName val="MEMO"/>
+          </Object>
+          <Object>
+            <id val="305"/>
+            <ItemIsn val="272"/>
+            <PublicName val="TUUKAKUB"/>
+          </Object>
+          <Object>
+            <id val="306"/>
+            <ItemIsn val="273"/>
+            <PublicName val="BUNRUICD"/>
+          </Object>
+          <Object>
+            <id val="307"/>
+            <ItemIsn val="274"/>
+            <PublicName val="SYATENCD"/>
+          </Object>
+          <Object>
+            <id val="308"/>
+            <ItemIsn val="275"/>
+            <PublicName val="KYOTUUCD"/>
+          </Object>
+          <Object>
+            <id val="310"/>
+            <ItemIsn val="276"/>
+            <PublicName val="HINBANCD"/>
+          </Object>
+          <Object>
+            <id val="311"/>
+            <ItemIsn val="277"/>
+            <PublicName val="HINMEIKANA"/>
+          </Object>
+          <Object>
+            <id val="312"/>
+            <ItemIsn val="278"/>
+            <PublicName val="HINMEI"/>
+          </Object>
+          <Object>
+            <id val="313"/>
+            <ItemIsn val="279"/>
+            <PublicName val="HINMEIRYAKU"/>
+          </Object>
+          <Object>
+            <id val="314"/>
+            <ItemIsn val="280"/>
+            <PublicName val="HIMOKUCD"/>
+          </Object>
+          <Object>
+            <id val="315"/>
+            <ItemIsn val="281"/>
+            <PublicName val="JANCODE"/>
+          </Object>
+          <Object>
+            <id val="316"/>
+            <ItemIsn val="282"/>
+            <PublicName val="KIKAKUMEI"/>
+          </Object>
+          <Object>
+            <id val="317"/>
+            <ItemIsn val="283"/>
+            <PublicName val="SYOUHINZAIRYO"/>
+          </Object>
+          <Object>
+            <id val="318"/>
+            <ItemIsn val="284"/>
+            <PublicName val="DAIBUNRUICD"/>
+          </Object>
+          <Object>
+            <id val="319"/>
+            <ItemIsn val="285"/>
+            <PublicName val="CHUBUNRUICD"/>
+          </Object>
+          <Object>
+            <id val="320"/>
+            <ItemIsn val="286"/>
+            <PublicName val="BUNRUIMEI"/>
+          </Object>
+          <Object>
+            <id val="321"/>
+            <ItemIsn val="287"/>
+            <PublicName val="KAZEIKBN"/>
+          </Object>
+          <Object>
+            <id val="322"/>
+            <ItemIsn val="288"/>
+            <PublicName val="IRISUU"/>
+          </Object>
+          <Object>
+            <id val="323"/>
+            <ItemIsn val="289"/>
+            <PublicName val="KONSUU"/>
+          </Object>
+          <Object>
+            <id val="324"/>
+            <ItemIsn val="290"/>
+            <PublicName val="TANICD"/>
+          </Object>
+          <Object>
+            <id val="325"/>
+            <ItemIsn val="291"/>
+            <PublicName val="TANIMEI"/>
+          </Object>
+          <Object>
+            <id val="326"/>
+            <ItemIsn val="292"/>
+            <PublicName val="HYOZYUNZAIKO"/>
+          </Object>
+          <Object>
+            <id val="327"/>
+            <ItemIsn val="293"/>
+            <PublicName val="ZAIKOKANRI"/>
+          </Object>
+          <Object>
+            <id val="328"/>
+            <ItemIsn val="294"/>
+            <PublicName val="NYUUKAZANKANRI"/>
+          </Object>
+          <Object>
+            <id val="329"/>
+            <ItemIsn val="295"/>
+            <PublicName val="SYOHINKBN"/>
+          </Object>
+          <Object>
+            <id val="330"/>
+            <ItemIsn val="296"/>
+            <PublicName val="BIKOU"/>
+          </Object>
+          <Object>
+            <id val="332"/>
+            <ItemIsn val="297"/>
+            <PublicName val="SOUKOCD"/>
+          </Object>
+          <Object>
+            <id val="333"/>
+            <ItemIsn val="298"/>
+            <PublicName val="TANABAN"/>
+          </Object>
+          <Object>
+            <id val="334"/>
+            <ItemIsn val="299"/>
+            <PublicName val="DAN"/>
+          </Object>
+          <Object>
+            <id val="335"/>
+            <ItemIsn val="300"/>
+            <PublicName val="ADDRESS"/>
+          </Object>
+          <Object>
+            <id val="337"/>
+            <ItemIsn val="301"/>
+            <PublicName val="TEIKA"/>
+          </Object>
+          <Object>
+            <id val="338"/>
+            <ItemIsn val="302"/>
+            <PublicName val="TANKA"/>
+          </Object>
+          <Object>
+            <id val="339"/>
+            <ItemIsn val="303"/>
+            <PublicName val="ZYUCHUTANKA"/>
+          </Object>
+          <Object>
+            <id val="340"/>
+            <ItemIsn val="304"/>
+            <PublicName val="HYOUZYUNTANKA"/>
+          </Object>
+          <Object>
+            <id val="341"/>
+            <ItemIsn val="305"/>
+            <PublicName val="SHIIRETANKA"/>
+          </Object>
+          <Object>
+            <id val="342"/>
+            <ItemIsn val="306"/>
+            <PublicName val="SHIKYUTANKA"/>
+          </Object>
+          <Object>
+            <id val="343"/>
+            <ItemIsn val="307"/>
+            <PublicName val="NOUNYUTANKA"/>
+          </Object>
+          <Object>
+            <id val="344"/>
+            <ItemIsn val="308"/>
+            <PublicName val="SUURYOU"/>
+          </Object>
+          <Object>
+            <id val="345"/>
+            <ItemIsn val="309"/>
+            <PublicName val="KINGAKU"/>
+          </Object>
+          <Object>
+            <id val="346"/>
+            <ItemIsn val="310"/>
+            <PublicName val="ZYUCHUUSUU"/>
+          </Object>
+          <Object>
+            <id val="347"/>
+            <ItemIsn val="311"/>
+            <PublicName val="SEISANSHIZISUU"/>
+          </Object>
+          <Object>
+            <id val="348"/>
+            <ItemIsn val="312"/>
+            <PublicName val="ZAIKOSHIYOUSUU"/>
+          </Object>
+          <Object>
+            <id val="349"/>
+            <ItemIsn val="313"/>
+            <PublicName val="SYUKKASHIZISUU"/>
+          </Object>
+          <Object>
+            <id val="350"/>
+            <ItemIsn val="314"/>
+            <PublicName val="SYUKKASUU"/>
+          </Object>
+          <Object>
+            <id val="351"/>
+            <ItemIsn val="315"/>
+            <PublicName val="SYUKKAYOTEISUU"/>
+          </Object>
+          <Object>
+            <id val="352"/>
+            <ItemIsn val="316"/>
+            <PublicName val="HIKIATEZUMISUU"/>
+          </Object>
+          <Object>
+            <id val="353"/>
+            <ItemIsn val="317"/>
+            <PublicName val="MINYUUKOSUU"/>
+          </Object>
+          <Object>
+            <id val="354"/>
+            <ItemIsn val="318"/>
+            <PublicName val="NOUNYUUSUU"/>
+          </Object>
+          <Object>
+            <id val="355"/>
+            <ItemIsn val="319"/>
+            <PublicName val="SAGYOUSHIZISUU"/>
+          </Object>
+          <Object>
+            <id val="356"/>
+            <ItemIsn val="320"/>
+            <PublicName val="KANRYOUKOSUU"/>
+          </Object>
+          <Object>
+            <id val="357"/>
+            <ItemIsn val="321"/>
+            <PublicName val="ZENGETSUZAN"/>
+          </Object>
+          <Object>
+            <id val="358"/>
+            <ItemIsn val="322"/>
+            <PublicName val="NYUUKOSUU"/>
+          </Object>
+          <Object>
+            <id val="359"/>
+            <ItemIsn val="323"/>
+            <PublicName val="HARAIDASHISUU"/>
+          </Object>
+          <Object>
+            <id val="360"/>
+            <ItemIsn val="324"/>
+            <PublicName val="YUSYOSHIKYUSUU"/>
+          </Object>
+          <Object>
+            <id val="361"/>
+            <ItemIsn val="325"/>
+            <PublicName val="IDOUSYUKKOSUU"/>
+          </Object>
+          <Object>
+            <id val="362"/>
+            <ItemIsn val="326"/>
+            <PublicName val="IDOUNYUUKOSUU"/>
+          </Object>
+          <Object>
+            <id val="363"/>
+            <ItemIsn val="327"/>
+            <PublicName val="NYUUKOCHOSEISUU"/>
+          </Object>
+          <Object>
+            <id val="364"/>
+            <ItemIsn val="328"/>
+            <PublicName val="SYUKKOCHOSEISUU"/>
+          </Object>
+          <Object>
+            <id val="365"/>
+            <ItemIsn val="329"/>
+            <PublicName val="TANAOROSHICHOSEISUU"/>
+          </Object>
+          <Object>
+            <id val="366"/>
+            <ItemIsn val="330"/>
+            <PublicName val="TOUGETSUZAN"/>
+          </Object>
+          <Object>
+            <id val="367"/>
+            <ItemIsn val="331"/>
+            <PublicName val="SHIKYUUSUU"/>
+          </Object>
+          <Object>
+            <id val="368"/>
+            <ItemIsn val="332"/>
+            <PublicName val="SHIYOUSUU"/>
+          </Object>
+          <Object>
+            <id val="369"/>
+            <ItemIsn val="333"/>
+            <PublicName val="ZAIKOSUU"/>
+          </Object>
+          <Object>
+            <id val="370"/>
+            <ItemIsn val="334"/>
+            <PublicName val="ZYUCHUUKINGAKU"/>
+          </Object>
+          <Object>
+            <id val="371"/>
+            <ItemIsn val="335"/>
+            <PublicName val="SYUKKAKINGAKU"/>
+          </Object>
+          <Object>
+            <id val="372"/>
+            <ItemIsn val="336"/>
+            <PublicName val="URIAGEKINGAKU"/>
+          </Object>
+          <Object>
+            <id val="373"/>
+            <ItemIsn val="337"/>
+            <PublicName val="HACHUUKINGAKU"/>
+          </Object>
+          <Object>
+            <id val="374"/>
+            <ItemIsn val="338"/>
+            <PublicName val="SHIIREKINGAKU"/>
+          </Object>
+          <Object>
+            <id val="375"/>
+            <ItemIsn val="339"/>
+            <PublicName val="SYOUHIZEIGAKU"/>
+          </Object>
+          <Object>
+            <id val="376"/>
+            <ItemIsn val="340"/>
+            <PublicName val="ARARIKINGAKU"/>
+          </Object>
+          <Object>
+            <id val="377"/>
+            <ItemIsn val="341"/>
+            <PublicName val="ZENGETSUZAN_KINGAKU"/>
+          </Object>
+          <Object>
+            <id val="378"/>
+            <ItemIsn val="342"/>
+            <PublicName val="TOUGETSUZAN_KINGAKU"/>
+          </Object>
+          <Object>
+            <id val="379"/>
+            <ItemIsn val="343"/>
+            <PublicName val="NYUUKINKINGAKU"/>
+          </Object>
+          <Object>
+            <id val="380"/>
+            <ItemIsn val="344"/>
+            <PublicName val="SOUSAIKINGAKU"/>
+          </Object>
+          <Object>
+            <id val="382"/>
+            <ItemIsn val="345"/>
+            <PublicName val="KANRINO"/>
+          </Object>
+          <Object>
+            <id val="383"/>
+            <ItemIsn val="346"/>
+            <PublicName val="ZYUCHUNO"/>
+          </Object>
+          <Object>
+            <id val="384"/>
+            <ItemIsn val="347"/>
+            <PublicName val="ZYUHACHUNO"/>
+          </Object>
+          <Object>
+            <id val="385"/>
+            <ItemIsn val="348"/>
+            <PublicName val="HACHUNO"/>
+          </Object>
+          <Object>
+            <id val="386"/>
+            <ItemIsn val="349"/>
+            <PublicName val="NOUNYUNO"/>
+          </Object>
+          <Object>
+            <id val="387"/>
+            <ItemIsn val="350"/>
+            <PublicName val="SYUKKASHIZINO"/>
+          </Object>
+          <Object>
+            <id val="388"/>
+            <ItemIsn val="351"/>
+            <PublicName val="SYUKKANO"/>
+          </Object>
+          <Object>
+            <id val="389"/>
+            <ItemIsn val="352"/>
+            <PublicName val="URIAGENO"/>
+          </Object>
+          <Object>
+            <id val="390"/>
+            <ItemIsn val="353"/>
+            <PublicName val="NYUKINNO"/>
+          </Object>
+          <Object>
+            <id val="391"/>
+            <ItemIsn val="354"/>
+            <PublicName val="NYUUKONO"/>
+          </Object>
+          <Object>
+            <id val="392"/>
+            <ItemIsn val="355"/>
+            <PublicName val="MEISAIGYONO"/>
+          </Object>
+          <Object>
+            <id val="393"/>
+            <ItemIsn val="356"/>
+            <PublicName val="EDABAN"/>
+          </Object>
+          <Object>
+            <id val="394"/>
+            <ItemIsn val="357"/>
+            <PublicName val="MITSUMORINO"/>
+          </Object>
+          <Object>
+            <id val="395"/>
+            <ItemIsn val="358"/>
+            <PublicName val="TOOLNO"/>
+          </Object>
+          <Object>
+            <id val="396"/>
+            <ItemIsn val="359"/>
+            <PublicName val="ROLLNO"/>
+          </Object>
+          <Object>
+            <id val="398"/>
+            <ItemIsn val="360"/>
+            <PublicName val="NYUUSYUKKINYOTEIBI"/>
+          </Object>
+          <Object>
+            <id val="399"/>
+            <ItemIsn val="361"/>
+            <PublicName val="SHIHARAIHOUHOU"/>
+          </Object>
+          <Object>
+            <id val="400"/>
+            <ItemIsn val="362"/>
+            <PublicName val="JYUNI"/>
+          </Object>
+          <Object>
+            <id val="401"/>
+            <ItemIsn val="363"/>
+            <PublicName val="MEISYOUTYPE"/>
+          </Object>
+          <Object>
+            <id val="402"/>
+            <ItemIsn val="364"/>
+            <PublicName val="SEISUUKETASUU"/>
+          </Object>
+          <Object>
+            <id val="403"/>
+            <ItemIsn val="365"/>
+            <PublicName val="SYOUSUUKETASUU"/>
+          </Object>
+          <Object>
+            <id val="404"/>
+            <ItemIsn val="366"/>
+            <PublicName val="TANIICHI"/>
+          </Object>
+          <Object>
+            <id val="405"/>
+            <ItemIsn val="367"/>
+            <PublicName val="LEADTIME"/>
+          </Object>
+          <Object>
+            <id val="406"/>
+            <ItemIsn val="368"/>
+            <PublicName val="SEIKYUSYOKBN"/>
+          </Object>
+          <Object>
+            <id val="407"/>
+            <ItemIsn val="369"/>
+            <PublicName val="NOUHINSYOKBN"/>
+          </Object>
+          <Object>
+            <id val="408"/>
+            <ItemIsn val="370"/>
+            <PublicName val="SEIKYUSYOINZIKBN"/>
+          </Object>
+          <Object>
+            <id val="409"/>
+            <ItemIsn val="371"/>
+            <PublicName val="SAITONISSUU"/>
+          </Object>
+          <Object>
+            <id val="410"/>
+            <ItemIsn val="372"/>
+            <PublicName val="SHIHARAIZYOUKEN"/>
+          </Object>
+          <Object>
+            <id val="411"/>
+            <ItemIsn val="373"/>
+            <PublicName val="KONMOUKBN"/>
+          </Object>
+          <Object>
+            <id val="412"/>
+            <ItemIsn val="374"/>
+            <PublicName val="MOURYOU"/>
+          </Object>
+          <Object>
+            <id val="413"/>
+            <ItemIsn val="375"/>
+            <PublicName val="SETSUDANCHO"/>
+          </Object>
+          <Object>
+            <id val="414"/>
+            <ItemIsn val="376"/>
+            <PublicName val="CSZUBAN"/>
+          </Object>
+          <Object>
+            <id val="415"/>
+            <ItemIsn val="377"/>
+            <PublicName val="CSHINBAN"/>
+          </Object>
+          <Object>
+            <id val="416"/>
+            <ItemIsn val="378"/>
+            <PublicName val="CSORDERNO"/>
+          </Object>
+          <Object>
+            <id val="417"/>
+            <ItemIsn val="379"/>
+            <PublicName val="SETKBN"/>
+          </Object>
+          <Object>
+            <id val="418"/>
+            <ItemIsn val="380"/>
+            <PublicName val="ZYUCHUBUNRUI"/>
+          </Object>
+          <Object>
+            <id val="419"/>
+            <ItemIsn val="381"/>
+            <PublicName val="HINMOKUCD"/>
+          </Object>
+          <Object>
+            <id val="420"/>
+            <ItemIsn val="382"/>
+            <PublicName val="HINMOKUCDKBN"/>
+          </Object>
+          <Object>
+            <id val="421"/>
+            <ItemIsn val="383"/>
+            <PublicName val="SYOHINSUNPOU"/>
+          </Object>
+          <Object>
+            <id val="422"/>
+            <ItemIsn val="384"/>
+            <PublicName val="MAKERMEI"/>
+          </Object>
+          <Object>
+            <id val="423"/>
+            <ItemIsn val="385"/>
+            <PublicName val="CHANNELCD"/>
+          </Object>
+          <Object>
+            <id val="424"/>
+            <ItemIsn val="386"/>
+            <PublicName val="TORYUCD"/>
+          </Object>
+          <Object>
+            <id val="425"/>
+            <ItemIsn val="387"/>
+            <PublicName val="KOWAZUBAN"/>
+          </Object>
+          <Object>
+            <id val="426"/>
+            <ItemIsn val="388"/>
+            <PublicName val="SENKEI"/>
+          </Object>
+          <Object>
+            <id val="427"/>
+            <ItemIsn val="389"/>
+            <PublicName val="RYUUDO"/>
+          </Object>
+          <Object>
+            <id val="428"/>
+            <ItemIsn val="390"/>
+            <PublicName val="KONGOURITSU"/>
+          </Object>
+          <Object>
+            <id val="429"/>
+            <ItemIsn val="391"/>
+            <PublicName val="KUREMUKBN"/>
+          </Object>
+          <Object>
+            <id val="430"/>
+            <ItemIsn val="392"/>
+            <PublicName val="KUREMUKAISUU"/>
+          </Object>
+          <Object>
+            <id val="431"/>
+            <ItemIsn val="393"/>
+            <PublicName val="KOUTEINAIHURYOU"/>
+          </Object>
+          <Object>
+            <id val="432"/>
+            <ItemIsn val="394"/>
+            <PublicName val="SHINKI"/>
+          </Object>
+          <Object>
+            <id val="433"/>
+            <ItemIsn val="395"/>
+            <PublicName val="LOTSUU"/>
+          </Object>
+          <Object>
+            <id val="434"/>
+            <ItemIsn val="396"/>
+            <PublicName val="GENMOUHI"/>
+          </Object>
+          <Object>
+            <id val="435"/>
+            <ItemIsn val="397"/>
+            <PublicName val="GENMOUKANRIHI"/>
+          </Object>
+          <Object>
+            <id val="436"/>
+            <ItemIsn val="398"/>
+            <PublicName val="SYANAIKAKOUHI"/>
+          </Object>
+          <Object>
+            <id val="437"/>
+            <ItemIsn val="399"/>
+            <PublicName val="SEIZOUKANRIHI"/>
+          </Object>
+          <Object>
+            <id val="438"/>
+            <ItemIsn val="400"/>
+            <PublicName val="KOUNYUUHINHI"/>
+          </Object>
+          <Object>
+            <id val="439"/>
+            <ItemIsn val="401"/>
+            <PublicName val="SYANAIHINHI"/>
+          </Object>
+          <Object>
+            <id val="440"/>
+            <ItemIsn val="402"/>
+            <PublicName val="GAICHUKAKOUHI"/>
+          </Object>
+          <Object>
+            <id val="441"/>
+            <ItemIsn val="403"/>
+            <PublicName val="TOKKYORYOU"/>
+          </Object>
+          <Object>
+            <id val="442"/>
+            <ItemIsn val="404"/>
+            <PublicName val="UNCHIN"/>
+          </Object>
+          <Object>
+            <id val="443"/>
+            <ItemIsn val="405"/>
+            <PublicName val="IPPANKANRIHI"/>
+          </Object>
+          <Object>
+            <id val="444"/>
+            <ItemIsn val="406"/>
+            <PublicName val="SHIKYUUHINHI"/>
+          </Object>
+          <Object>
+            <id val="445"/>
+            <ItemIsn val="407"/>
+            <PublicName val="HYOUZYUNKANRIHI"/>
+          </Object>
+          <Object>
+            <id val="446"/>
+            <ItemIsn val="408"/>
+            <PublicName val="HYOUZYUNHASSOUHI"/>
+          </Object>
+          <Object>
+            <id val="447"/>
+            <ItemIsn val="409"/>
+            <PublicName val="ZYUCHUBUNRUIMEI"/>
+          </Object>
+          <Object>
+            <id val="448"/>
+            <ItemIsn val="410"/>
+            <PublicName val="PATTERNNO"/>
+          </Object>
+          <Object>
+            <id val="449"/>
+            <ItemIsn val="411"/>
+            <PublicName val="KANRIHIHIRITSU"/>
+          </Object>
+          <Object>
+            <id val="450"/>
+            <ItemIsn val="412"/>
+            <PublicName val="ZYUCHUKBN"/>
+          </Object>
+          <Object>
+            <id val="451"/>
+            <ItemIsn val="413"/>
+            <PublicName val="KONMOUUMU"/>
+          </Object>
+          <Object>
+            <id val="452"/>
+            <ItemIsn val="414"/>
+            <PublicName val="HITOSAGYOUKUBUNCD"/>
+          </Object>
+          <Object>
+            <id val="453"/>
+            <ItemIsn val="415"/>
+            <PublicName val="KIKAISAGYOUKUBUNCD"/>
+          </Object>
+          <Object>
+            <id val="454"/>
+            <ItemIsn val="416"/>
+            <PublicName val="SAGYOUZIKAN"/>
+          </Object>
+          <Object>
+            <id val="455"/>
+            <ItemIsn val="417"/>
+            <PublicName val="SAGYOUZYOUTAI"/>
+          </Object>
+          <Object>
+            <id val="456"/>
+            <ItemIsn val="418"/>
+            <PublicName val="KINSYU"/>
+          </Object>
+          <Object>
+            <id val="457"/>
+            <ItemIsn val="419"/>
+            <PublicName val="DENPYOUMAISUU"/>
+          </Object>
+          <Object>
+            <id val="458"/>
+            <ItemIsn val="420"/>
+            <PublicName val="FILEPATHNAME"/>
+          </Object>
+          <Object>
+            <id val="459"/>
+            <ItemIsn val="421"/>
+            <PublicName val="FILENAME"/>
+          </Object>
+          <Object>
+            <id val="460"/>
+            <ItemIsn val="422"/>
+            <PublicName val="VECTOR STRING"/>
+          </Object>
+          <Object>
+            <id val="461"/>
+            <ItemIsn val="423"/>
+            <PublicName val="HINMEI_EDI"/>
+          </Object>
+          <Object>
+            <id val="462"/>
+            <ItemIsn val="424"/>
+            <PublicName val="KIKAKU_EDI"/>
+          </Object>
+          <Object>
+            <id val="463"/>
+            <ItemIsn val="425"/>
+            <PublicName val="ZIP_DL_URL"/>
+          </Object>
+          <Object>
+            <id val="465"/>
+            <ItemIsn val="426"/>
+            <PublicName val="NYUSYUKKOKBN"/>
+          </Object>
+          <Object>
+            <id val="467"/>
+            <ItemIsn val="427"/>
+            <PublicName val="PCNAME"/>
+          </Object>
+          <Object>
+            <id val="468"/>
+            <ItemIsn val="428"/>
+            <PublicName val="OSNAME"/>
+          </Object>
+          <Object>
+            <id val="469"/>
+            <ItemIsn val="429"/>
+            <PublicName val="DISPLAYNAME"/>
+          </Object>
+          <Object>
+            <id val="471"/>
+            <ItemIsn val="430"/>
+            <PublicName val="strConnection"/>
+          </Object>
+          <Object>
+            <id val="472"/>
+            <ItemIsn val="431"/>
+            <PublicName val="SYAINCD"/>
+          </Object>
+          <Object>
+            <id val="473"/>
+            <ItemIsn val="432"/>
+            <PublicName val="SYAINMEI"/>
+          </Object>
+          <Object>
+            <id val="474"/>
+            <ItemIsn val="433"/>
+            <PublicName val="SYOHINCD"/>
+          </Object>
+          <Object>
+            <id val="475"/>
+            <ItemIsn val="434"/>
+            <PublicName val="SYOHINMEI"/>
+          </Object>
+          <Object>
+            <id val="477"/>
+            <ItemIsn val="435"/>
+            <PublicName val="SOUKOMEI"/>
+          </Object>
+          <Object>
+            <id val="478"/>
+            <ItemIsn val="436"/>
+            <PublicName val="BUTTONMEI"/>
+          </Object>
+          <Object>
+            <id val="480"/>
+            <ItemIsn val="437"/>
+            <PublicName val="TANAOROSHI_NENGAPPI"/>
+          </Object>
+          <Object>
+            <id val="481"/>
+            <ItemIsn val="438"/>
+            <PublicName val="TANAOROSHISUURYO"/>
+          </Object>
+          <Object>
+            <id val="482"/>
+            <ItemIsn val="439"/>
+            <PublicName val="TANAOROSHIMODE"/>
+          </Object>
+          <Object>
+            <id val="483"/>
+            <ItemIsn val="440"/>
+            <PublicName val="SELECT_SAGYOUSYA"/>
+          </Object>
+          <Object>
+            <id val="484"/>
+            <ItemIsn val="441"/>
+            <PublicName val="SELECT_SOUKO"/>
+          </Object>
+          <Object>
+            <id val="485"/>
+            <ItemIsn val="442"/>
+            <PublicName val="NFC_ID"/>
+          </Object>
+          <Object>
+            <id val="486"/>
+            <ItemIsn val="443"/>
+            <PublicName val="SEIHINCD"/>
+          </Object>
+          <Object>
+            <id val="487"/>
+            <ItemIsn val="444"/>
+            <PublicName val="SEIHINMEI"/>
+          </Object>
+          <Object>
+            <id val="488"/>
+            <ItemIsn val="445"/>
+            <PublicName val="SERVERPATH"/>
+          </Object>
+          <Object>
+            <id val="489"/>
+            <ItemIsn val="446"/>
+            <PublicName val="DeviceModel"/>
+          </Object>
+          <Object>
+            <id val="491"/>
+            <ItemIsn val="447"/>
+            <PublicName val="SAGYOUZIKOKU"/>
+          </Object>
+          <Object>
+            <id val="492"/>
+            <ItemIsn val="448"/>
+            <PublicName val="TORIHIKISAKICD"/>
+          </Object>
+          <Object>
+            <id val="493"/>
+            <ItemIsn val="449"/>
+            <PublicName val="TORIHIKISAKIMEI"/>
+          </Object>
+          <Object>
+            <id val="494"/>
+            <ItemIsn val="450"/>
+            <PublicName val="SUURYO"/>
+          </Object>
+          <Object>
+            <id val="495"/>
+            <ItemIsn val="451"/>
+            <PublicName val="KENPINSUURYO"/>
+          </Object>
+          <Object>
+            <id val="496"/>
+            <ItemIsn val="452"/>
+            <PublicName val="KENPINHENKOUFLG"/>
+          </Object>
+          <Object>
+            <id val="497"/>
+            <ItemIsn val="453"/>
+            <PublicName val="LINK_RETURN"/>
+          </Object>
+          <Object>
+            <id val="498"/>
+            <ItemIsn val="454"/>
+            <PublicName val="ScanCODESTR"/>
+          </Object>
+          <Object>
+            <id val="499"/>
+            <ItemIsn val="455"/>
+            <PublicName val="ScanSYMBOLID"/>
+          </Object>
+          <Object>
+            <id val="500"/>
+            <ItemIsn val="456"/>
+            <PublicName val="SYMBOLID"/>
+          </Object>
+          <Object>
+            <id val="501"/>
+            <ItemIsn val="457"/>
+            <PublicName val="ScanCODELENGTH"/>
+          </Object>
+          <Object>
+            <id val="502"/>
+            <ItemIsn val="458"/>
+            <PublicName val="CODELENGTH"/>
+          </Object>
+          <Object>
+            <id val="503"/>
+            <ItemIsn val="459"/>
+            <PublicName val="PALETTENO"/>
+          </Object>
+          <Object>
+            <id val="505"/>
+            <ItemIsn val="460"/>
+            <PublicName val="GYOUSYUKBN"/>
+          </Object>
+          <Object>
+            <id val="506"/>
+            <ItemIsn val="461"/>
+            <PublicName val="TOKUISAKIKBN"/>
+          </Object>
+          <Object>
+            <id val="507"/>
+            <ItemIsn val="462"/>
+            <PublicName val="KOWAZIGYOKBN"/>
+          </Object>
+          <Object>
+            <id val="509"/>
+            <ItemIsn val="463"/>
+            <PublicName val="ZYUGYOINSUU"/>
+          </Object>
+          <Object>
+            <id val="510"/>
+            <ItemIsn val="464"/>
+            <PublicName val="SHIHONKIN"/>
+          </Object>
+          <Object>
+            <id val="511"/>
+            <ItemIsn val="465"/>
+            <PublicName val="JOUJOU/HIJOUJOU"/>
+          </Object>
+          <Object>
+            <id val="512"/>
+            <ItemIsn val="466"/>
+            <PublicName val="NENSYOU"/>
+          </Object>
+          <Object>
+            <id val="513"/>
+            <ItemIsn val="467"/>
+            <PublicName val="DAIHYOUSHA"/>
+          </Object>
+          <Object>
+            <id val="514"/>
+            <ItemIsn val="468"/>
+            <PublicName val="AREACODE"/>
+          </Object>
+          <Object>
+            <id val="515"/>
+            <ItemIsn val="469"/>
+            <PublicName val="KAIGAICODE"/>
+          </Object>
+          <Object>
+            <id val="516"/>
+            <ItemIsn val="470"/>
+            <PublicName val="KUNICODE"/>
+          </Object>
+          <Object>
+            <id val="517"/>
+            <ItemIsn val="471"/>
+            <PublicName val="SYOUKAIKEIRO"/>
+          </Object>
+          <Object>
+            <id val="518"/>
+            <ItemIsn val="472"/>
+            <PublicName val="SYOUKAIKEIRO_SYOUSAI"/>
+          </Object>
+          <Object>
+            <id val="519"/>
+            <ItemIsn val="473"/>
+            <PublicName val="MIKOMIDO"/>
+          </Object>
+          <Object>
+            <id val="520"/>
+            <ItemIsn val="474"/>
+            <PublicName val="TOKUISAKI_EDABAN"/>
+          </Object>
+          <Object>
+            <id val="521"/>
+            <ItemIsn val="475"/>
+            <PublicName val="KOKYAKUKBN"/>
+          </Object>
+          <Object>
+            <id val="522"/>
+            <ItemIsn val="476"/>
+            <PublicName val="KOZINKYAKUKBN"/>
+          </Object>
+          <Object>
+            <id val="523"/>
+            <ItemIsn val="477"/>
+            <PublicName val="ECKBN"/>
+          </Object>
+          <Object>
+            <id val="524"/>
+            <ItemIsn val="478"/>
+            <PublicName val="SYOUKAIHIDUKE"/>
+          </Object>
+          <Object>
+            <id val="526"/>
+            <ItemIsn val="479"/>
+            <PublicName val="STATUS"/>
+          </Object>
+          <Object>
+            <id val="527"/>
+            <ItemIsn val="480"/>
+            <PublicName val="TANTOUSYAKBN"/>
+          </Object>
+          <Object>
+            <id val="529"/>
+            <ItemIsn val="481"/>
+            <PublicName val="SESSYOKUBANGOU"/>
+          </Object>
+          <Object>
+            <id val="530"/>
+            <ItemIsn val="482"/>
+            <PublicName val="SYOUDANNOUKI"/>
+          </Object>
+          <Object>
+            <id val="531"/>
+            <ItemIsn val="483"/>
+            <PublicName val="KENMEI"/>
+          </Object>
+          <Object>
+            <id val="532"/>
+            <ItemIsn val="484"/>
+            <PublicName val="MOKUTEKI"/>
+          </Object>
+          <Object>
+            <id val="533"/>
+            <ItemIsn val="485"/>
+            <PublicName val="SYOUDANBASYO"/>
+          </Object>
+          <Object>
+            <id val="535"/>
+            <ItemIsn val="486"/>
+            <PublicName val="MITUMORINO"/>
+          </Object>
+          <Object>
+            <id val="536"/>
+            <ItemIsn val="487"/>
+            <PublicName val="MITUMORI_EDABAN"/>
+          </Object>
+          <Object>
+            <id val="538"/>
+            <ItemIsn val="488"/>
+            <PublicName val="TORIHIKIRIREKINO"/>
+          </Object>
+          <Object>
+            <id val="540"/>
+            <ItemIsn val="489"/>
+            <PublicName val="TORIHIKISTATUS"/>
+          </Object>
+          <Object>
+            <id val="541"/>
+            <ItemIsn val="490"/>
+            <PublicName val="SHICCHUURIYUU"/>
+          </Object>
+          <Object>
+            <id val="542"/>
+            <ItemIsn val="491"/>
+            <PublicName val="KOUNYUUYOUTO"/>
+          </Object>
+          <Object>
+            <id val="545"/>
+            <ItemIsn val="492"/>
+            <PublicName val="SYOHINCODE"/>
+          </Object>
+          <Object>
+            <id val="547"/>
+            <ItemIsn val="493"/>
+            <PublicName val="GROUPNO"/>
+          </Object>
+          <Object>
+            <id val="548"/>
+            <ItemIsn val="494"/>
+            <PublicName val="GROUPMEI"/>
+          </Object>
+          <Object>
+            <id val="549"/>
+            <ItemIsn val="495"/>
+            <PublicName val="MAILTEMPLATENO"/>
+          </Object>
+          <Object>
+            <id val="550"/>
+            <ItemIsn val="496"/>
+            <PublicName val="HAISHINSTATUS"/>
+          </Object>
+          <Object>
+            <id val="551"/>
+            <ItemIsn val="497"/>
+            <PublicName val="SENDEKNMEI"/>
+          </Object>
+          <Object>
+            <id val="552"/>
+            <ItemIsn val="498"/>
+            <PublicName val="SENDNAIYOU"/>
+          </Object>
+          <Object>
+            <id val="554"/>
+            <ItemIsn val="499"/>
+            <PublicName val="DENPYONO"/>
+          </Object>
+          <Object>
+            <id val="555"/>
+            <ItemIsn val="500"/>
+            <PublicName val="DENPYOGYO"/>
+          </Object>
+          <Object>
+            <id val="556"/>
+            <ItemIsn val="501"/>
+            <PublicName val="DENPYO"/>
+          </Object>
+          <Object>
+            <id val="557"/>
+            <ItemIsn val="502"/>
+            <PublicName val="DENPYOHIDUKE"/>
+          </Object>
+          <Object>
+            <id val="559"/>
+            <ItemIsn val="503"/>
+            <PublicName val="BUNNOUKAISUU"/>
+          </Object>
+          <Object>
+            <id val="561"/>
+            <ItemIsn val="504"/>
+            <PublicName val="SUNPOUGI"/>
+          </Object>
+          <Object>
+            <id val="562"/>
+            <ItemIsn val="505"/>
+            <PublicName val="KUBIAKE"/>
+          </Object>
+          <Object>
+            <id val="563"/>
+            <ItemIsn val="506"/>
+            <PublicName val="BUNRYOUKI"/>
+          </Object>
+          <Object>
+            <id val="564"/>
+            <ItemIsn val="507"/>
+            <PublicName val="EGIRI"/>
+          </Object>
+          <Object>
+            <id val="565"/>
+            <ItemIsn val="508"/>
+            <PublicName val="KEISUU"/>
+          </Object>
+          <Object>
+            <id val="566"/>
+            <ItemIsn val="509"/>
+            <PublicName val="MOUZAI"/>
+          </Object>
+          <Object>
+            <id val="567"/>
+            <ItemIsn val="510"/>
+            <PublicName val="ZAISITSU"/>
+          </Object>
+          <Object>
+            <id val="568"/>
+            <ItemIsn val="511"/>
+            <PublicName val="SYURUI"/>
+          </Object>
+          <Object>
+            <id val="569"/>
+            <ItemIsn val="512"/>
+            <PublicName val="HENKOURIYUU"/>
+          </Object>
+          <Object>
+            <id val="570"/>
+            <ItemIsn val="513"/>
+            <PublicName val="ZENCHOU"/>
+          </Object>
+          <Object>
+            <id val="571"/>
+            <ItemIsn val="514"/>
+            <PublicName val="GAIKEI"/>
+          </Object>
+          <Object>
+            <id val="572"/>
+            <ItemIsn val="515"/>
+            <PublicName val="SETSUDANCHOU"/>
+          </Object>
+          <Object>
+            <id val="574"/>
+            <ItemIsn val="516"/>
+            <PublicName val="HAGUNO"/>
+          </Object>
+          <Object>
+            <id val="575"/>
+            <ItemIsn val="517"/>
+            <PublicName val="TEISUU"/>
+          </Object>
+          <Object>
+            <id val="577"/>
+            <ItemIsn val="518"/>
+            <PublicName val="CS_TEHAIRENBAN"/>
+          </Object>
+          <Object>
+            <id val="578"/>
+            <ItemIsn val="519"/>
+            <PublicName val="CS_NOUNYUBANGOU"/>
+          </Object>
+          <Object>
+            <id val="579"/>
+            <ItemIsn val="520"/>
+            <PublicName val="CS_CHOTATSUKBN"/>
+          </Object>
+          <Object>
+            <id val="580"/>
+            <ItemIsn val="521"/>
+            <PublicName val="YOYAKUHINBAN"/>
+          </Object>
+          <Object>
+            <id val="581"/>
+            <ItemIsn val="522"/>
+            <PublicName val="SPEC"/>
+          </Object>
+          <Object>
+            <id val="582"/>
+            <ItemIsn val="523"/>
+            <PublicName val="CS_KOJYOMEI"/>
+          </Object>
+          <Object>
+            <id val="583"/>
+            <ItemIsn val="524"/>
+            <PublicName val="CS_SOUKOCD"/>
+          </Object>
+          <Object>
+            <id val="584"/>
+            <ItemIsn val="525"/>
+            <PublicName val="CS_SYUKKOBUSYO"/>
+          </Object>
+          <Object>
+            <id val="585"/>
+            <ItemIsn val="526"/>
+            <PublicName val="CS_HACCHUSUURYOU"/>
+          </Object>
+          <Object>
+            <id val="586"/>
+            <ItemIsn val="527"/>
+            <PublicName val="CS_TANIMEI"/>
+          </Object>
+          <Object>
+            <id val="587"/>
+            <ItemIsn val="528"/>
+            <PublicName val="CS_NISUGATASUU"/>
+          </Object>
+          <Object>
+            <id val="588"/>
+            <ItemIsn val="529"/>
+            <PublicName val="CS_KANBANMAISUU"/>
+          </Object>
+          <Object>
+            <id val="589"/>
+            <ItemIsn val="530"/>
+            <PublicName val="CS_LEADTIME"/>
+          </Object>
+          <Object>
+            <id val="590"/>
+            <ItemIsn val="531"/>
+            <PublicName val="SHOTAKBN"/>
+          </Object>
+          <Object>
+            <id val="591"/>
+            <ItemIsn val="532"/>
+            <PublicName val="CS_TANKA"/>
+          </Object>
+          <Object>
+            <id val="592"/>
+            <ItemIsn val="533"/>
+            <PublicName val="CS_KINGAKU"/>
+          </Object>
+          <Object>
+            <id val="593"/>
+            <ItemIsn val="534"/>
+            <PublicName val="CS_IRAIBUSHOCD"/>
+          </Object>
+          <Object>
+            <id val="594"/>
+            <ItemIsn val="535"/>
+            <PublicName val="CS_IRAIBUSHOMEI"/>
+          </Object>
+          <Object>
+            <id val="595"/>
+            <ItemIsn val="536"/>
+            <PublicName val="CS_IRAISHAMEI"/>
+          </Object>
+          <Object>
+            <id val="596"/>
+            <ItemIsn val="537"/>
+            <PublicName val="CS_IRAISHAGAISEN"/>
+          </Object>
+          <Object>
+            <id val="597"/>
+            <ItemIsn val="538"/>
+            <PublicName val="CS_IRAISHANAIISEN"/>
+          </Object>
+          <Object>
+            <id val="598"/>
+            <ItemIsn val="539"/>
+            <PublicName val="CS_IRAISHAMAIL"/>
+          </Object>
+          <Object>
+            <id val="599"/>
+            <ItemIsn val="540"/>
+            <PublicName val="CS_KEIRYOHINNOUNYUSUU"/>
+          </Object>
+          <Object>
+            <id val="600"/>
+            <ItemIsn val="541"/>
+            <PublicName val="CS_KEIRYOHINNOUNYUTANI"/>
+          </Object>
+          <Object>
+            <id val="601"/>
+            <ItemIsn val="542"/>
+            <PublicName val="CS_GENPINNO"/>
+          </Object>
+          <Object>
+            <id val="602"/>
+            <ItemIsn val="543"/>
+            <PublicName val="SHOBANCHI"/>
+          </Object>
+          <Object>
+            <id val="604"/>
+            <ItemIsn val="544"/>
+            <PublicName val="COMPANY_CD"/>
+          </Object>
+          <Object>
+            <id val="605"/>
+            <ItemIsn val="545"/>
+            <PublicName val="DEPARTMENT_CD"/>
+          </Object>
+          <Object>
+            <id val="606"/>
+            <ItemIsn val="546"/>
+            <PublicName val="COMPANY_DIV"/>
+          </Object>
+          <Object>
+            <id val="607"/>
+            <ItemIsn val="547"/>
+            <PublicName val="CREATE_DATE"/>
+          </Object>
+          <Object>
+            <id val="608"/>
+            <ItemIsn val="548"/>
+            <PublicName val="CREATE_TIME"/>
+          </Object>
+          <Object>
+            <id val="609"/>
+            <ItemIsn val="549"/>
+            <PublicName val="CREATE_CD"/>
+          </Object>
+          <Object>
+            <id val="610"/>
+            <ItemIsn val="550"/>
+            <PublicName val="CREATE_ID"/>
+          </Object>
+          <Object>
+            <id val="611"/>
+            <ItemIsn val="551"/>
+            <PublicName val="UPDATE_DATE"/>
+          </Object>
+          <Object>
+            <id val="612"/>
+            <ItemIsn val="552"/>
+            <PublicName val="UPDATE_TIME"/>
+          </Object>
+          <Object>
+            <id val="613"/>
+            <ItemIsn val="553"/>
+            <PublicName val="UPDATE_CD"/>
+          </Object>
+          <Object>
+            <id val="614"/>
+            <ItemIsn val="554"/>
+            <PublicName val="UPDATE_ID"/>
+          </Object>
+          <Object>
+            <id val="615"/>
+            <ItemIsn val="555"/>
+            <PublicName val="UPDATE_PC_NAME"/>
+          </Object>
+          <Object>
+            <id val="617"/>
+            <ItemIsn val="556"/>
+            <PublicName val="Notice_Title"/>
+          </Object>
+          <Object>
+            <id val="618"/>
+            <ItemIsn val="557"/>
+            <PublicName val="Notice_SubStance"/>
+          </Object>
+          <Object>
+            <id val="620"/>
+            <ItemIsn val="558"/>
+            <PublicName val="Question"/>
+          </Object>
+          <Object>
+            <id val="622"/>
+            <ItemIsn val="559"/>
+            <PublicName val="INVOICENO"/>
+          </Object>
+          <Object>
+            <id val="623"/>
+            <ItemIsn val="560"/>
+            <PublicName val="INVOICEKBN"/>
+          </Object>
+          <Object>
+            <id val="625"/>
+            <ItemIsn val="561"/>
+            <PublicName val="IS_FIXED"/>
+          </Object>
+          <Object>
+            <id val="626"/>
+            <ItemIsn val="562"/>
+            <PublicName val="BAKURYOBUMONCD"/>
+          </Object>
+          <Object>
+            <id val="628"/>
+            <ItemIsn val="563"/>
+            <PublicName val="MENUSTRIP"/>
+          </Object>
+          <Object>
+            <id val="629"/>
+            <ItemIsn val="564"/>
+            <PublicName val="Copy"/>
+          </Object>
+          <Object>
+            <id val="631"/>
+            <ItemIsn val="565"/>
+            <PublicName val="PRG_NO"/>
+          </Object>
+          <Object>
+            <id val="632"/>
+            <ItemIsn val="566"/>
+            <PublicName val="HAC_SCRMODE_NO"/>
+          </Object>
+          <Object>
+            <id val="633"/>
+            <ItemIsn val="567"/>
+            <PublicName val="MACHINENAME"/>
+          </Object>
+          <Object>
+            <id val="634"/>
+            <ItemIsn val="568"/>
+            <PublicName val="DB_SRV"/>
+          </Object>
+          <Object>
+            <id val="637"/>
+            <ItemIsn val="569"/>
+            <PublicName val="ITG_LABEL_TITLE"/>
+          </Object>
+          <Object>
+            <id val="638"/>
+            <ItemIsn val="570"/>
+            <PublicName val="ITG_LABEL_Ver"/>
+          </Object>
+          <Object>
+            <id val="639"/>
+            <ItemIsn val="571"/>
+            <PublicName val="ITG_LABEL"/>
+          </Object>
+          <Object>
+            <id val="640"/>
+            <ItemIsn val="572"/>
+            <PublicName val="ITG_MENU_BUTTON"/>
+          </Object>
+          <Object>
+            <id val="641"/>
+            <ItemIsn val="573"/>
+            <PublicName val="ITG_KEYSELECTBUTTON"/>
+          </Object>
+          <Object>
+            <id val="642"/>
+            <ItemIsn val="574"/>
+            <PublicName val="ITG_EXEBUTTON"/>
+          </Object>
+          <Object>
+            <id val="643"/>
+            <ItemIsn val="575"/>
+            <PublicName val="ITG_CLOSEBUTTON"/>
+          </Object>
+          <Object>
+            <id val="644"/>
+            <ItemIsn val="576"/>
+            <PublicName val="ITG_COMBO_SYAIN"/>
+          </Object>
+          <Object>
+            <id val="645"/>
+            <ItemIsn val="577"/>
+            <PublicName val="ITG_COMBO_SELECT"/>
+          </Object>
+          <Object>
+            <id val="646"/>
+            <ItemIsn val="578"/>
+            <PublicName val="ITG_EDIT"/>
+          </Object>
+          <Object>
+            <id val="647"/>
+            <ItemIsn val="579"/>
+            <PublicName val="ITG_EDIT_TABLE"/>
+          </Object>
+          <Object>
+            <id val="648"/>
+            <ItemIsn val="580"/>
+            <PublicName val="ITG_TABLE"/>
+          </Object>
+          <Object>
+            <id val="649"/>
+            <ItemIsn val="581"/>
+            <PublicName val="ITG_TABLECOLUMN"/>
+          </Object>
+          <Object>
+            <id val="651"/>
+            <ItemIsn val="582"/>
+            <PublicName val="PC_FORM"/>
+          </Object>
+          <Object>
+            <id val="652"/>
+            <ItemIsn val="583"/>
+            <PublicName val="PC_SUBFORM"/>
+          </Object>
+          <Object>
+            <id val="653"/>
+            <ItemIsn val="584"/>
+            <PublicName val="PC_LABEL_TITLE"/>
+          </Object>
+          <Object>
+            <id val="654"/>
+            <ItemIsn val="585"/>
+            <PublicName val="PC_LABEL_TITLELINE"/>
+          </Object>
+          <Object>
+            <id val="655"/>
+            <ItemIsn val="586"/>
+            <PublicName val="PC_LABEL_Ver"/>
+          </Object>
+          <Object>
+            <id val="656"/>
+            <ItemIsn val="587"/>
+            <PublicName val="PC_LABEL"/>
+          </Object>
+          <Object>
+            <id val="657"/>
+            <ItemIsn val="588"/>
+            <PublicName val="PC_BUTTON"/>
+          </Object>
+          <Object>
+            <id val="658"/>
+            <ItemIsn val="589"/>
+            <PublicName val="PC_TABLE"/>
+          </Object>
+          <Object>
+            <id val="659"/>
+            <ItemIsn val="590"/>
+            <PublicName val="PC_TABLE_TITLE"/>
+          </Object>
+          <Object>
+            <id val="660"/>
+            <ItemIsn val="591"/>
+            <PublicName val="PC_EXEBUTTON"/>
+          </Object>
+          <Object>
+            <id val="661"/>
+            <ItemIsn val="592"/>
+            <PublicName val="PC_CLOSEBUTTON"/>
+          </Object>
+          <Object>
+            <id val="662"/>
+            <ItemIsn val="593"/>
+            <PublicName val="PC_EDIT"/>
+          </Object>
+          <Object>
+            <id val="664"/>
+            <ItemIsn val="594"/>
+            <PublicName val="DTX_LABEL_TITLE"/>
+          </Object>
+          <Object>
+            <id val="665"/>
+            <ItemIsn val="595"/>
+            <PublicName val="DTX_LABEL_Ver"/>
+          </Object>
+          <Object>
+            <id val="666"/>
+            <ItemIsn val="596"/>
+            <PublicName val="DTX_LABEL"/>
+          </Object>
+          <Object>
+            <id val="668"/>
+            <ItemIsn val="597"/>
+            <PublicName val="DTX_MENU_BUTTON"/>
+          </Object>
+          <Object>
+            <id val="669"/>
+            <ItemIsn val="598"/>
+            <PublicName val="DTX_F1BUTTON"/>
+          </Object>
+          <Object>
+            <id val="670"/>
+            <ItemIsn val="599"/>
+            <PublicName val="DTX_F2BUTTON"/>
+          </Object>
+          <Object>
+            <id val="671"/>
+            <ItemIsn val="600"/>
+            <PublicName val="DTX_F3BUTTON"/>
+          </Object>
+          <Object>
+            <id val="672"/>
+            <ItemIsn val="601"/>
+            <PublicName val="DTX_F4BUTTON"/>
+          </Object>
+          <Object>
+            <id val="673"/>
+            <ItemIsn val="602"/>
+            <PublicName val="DTX_Oter1BUTTON"/>
+          </Object>
+          <Object>
+            <id val="674"/>
+            <ItemIsn val="603"/>
+            <PublicName val="DTX_Oter2BUTTON"/>
+          </Object>
+          <Object>
+            <id val="675"/>
+            <ItemIsn val="604"/>
+            <PublicName val="DTX_Oter3BUTTON"/>
+          </Object>
+          <Object>
+            <id val="676"/>
+            <ItemIsn val="605"/>
+            <PublicName val="DTX_Oter4BUTTON"/>
+          </Object>
+          <Object>
+            <id val="677"/>
+            <ItemIsn val="606"/>
+            <PublicName val="DTX_EXEBUTTON"/>
+          </Object>
+          <Object>
+            <id val="678"/>
+            <ItemIsn val="607"/>
+            <PublicName val="DTX_COMBO_SYAIN"/>
+          </Object>
+          <Object>
+            <id val="679"/>
+            <ItemIsn val="608"/>
+            <PublicName val="DTX_COMBO_SELECT"/>
+          </Object>
+          <Object>
+            <id val="680"/>
+            <ItemIsn val="609"/>
+            <PublicName val="DTX_EDIT"/>
+          </Object>
+          <Object>
+            <id val="681"/>
+            <ItemIsn val="610"/>
+            <PublicName val="DTX_EDIT_TABLE"/>
+          </Object>
+          <Object>
+            <id val="682"/>
+            <ItemIsn val="611"/>
+            <PublicName val="DTX_TABLE"/>
+          </Object>
+          <Object>
+            <id val="683"/>
+            <ItemIsn val="612"/>
+            <PublicName val="DTX_TABLECOLUMN"/>
+          </Object>
+          <Object>
+            <id val="685"/>
+            <ItemIsn val="613"/>
+            <PublicName val="ITG600_FORM"/>
+          </Object>
+          <Object>
+            <id val="686"/>
+            <ItemIsn val="614"/>
+            <PublicName val="ITG600_LABEL_TITLE"/>
+          </Object>
+          <Object>
+            <id val="687"/>
+            <ItemIsn val="615"/>
+            <PublicName val="ITG600_LABEL_Ver"/>
+          </Object>
+          <Object>
+            <id val="688"/>
+            <ItemIsn val="616"/>
+            <PublicName val="ITG600_LABEL"/>
+          </Object>
+          <Object>
+            <id val="689"/>
+            <ItemIsn val="617"/>
+            <PublicName val="ITG600_MENU_BUTTON"/>
+          </Object>
+          <Object>
+            <id val="690"/>
+            <ItemIsn val="618"/>
+            <PublicName val="ITG600_EXEBUTTON"/>
+          </Object>
+          <Object>
+            <id val="691"/>
+            <ItemIsn val="619"/>
+            <PublicName val="ITG600_CLOSEBUTTON"/>
+          </Object>
+          <Object>
+            <id val="692"/>
+            <ItemIsn val="620"/>
+            <PublicName val="ITG600_KEYSELECTBUTTON"/>
+          </Object>
+          <Object>
+            <id val="693"/>
+            <ItemIsn val="621"/>
+            <PublicName val="ITG600_COMBO_SYAIN"/>
+          </Object>
+          <Object>
+            <id val="694"/>
+            <ItemIsn val="622"/>
+            <PublicName val="ITG600_COMBO_SELECT"/>
+          </Object>
+          <Object>
+            <id val="695"/>
+            <ItemIsn val="623"/>
+            <PublicName val="ITG600_EDIT_TABLE"/>
+          </Object>
+          <Object>
+            <id val="696"/>
+            <ItemIsn val="624"/>
+            <PublicName val="ITG600_EDIT"/>
+          </Object>
+          <Object>
+            <id val="697"/>
+            <ItemIsn val="625"/>
+            <PublicName val="ITG600_TABLE"/>
+          </Object>
+          <Object>
+            <id val="698"/>
+            <ItemIsn val="626"/>
+            <PublicName val="ITG600_TABLECOLUMN"/>
+          </Object>
+          <Object>
+            <id val="699"/>
+            <ItemIsn val="627"/>
+            <PublicName val="ITG600_F1BUTTON"/>
+          </Object>
+          <Object>
+            <id val="700"/>
+            <ItemIsn val="628"/>
+            <PublicName val="ITG600_F2BUTTON"/>
+          </Object>
+          <Object>
+            <id val="701"/>
+            <ItemIsn val="629"/>
+            <PublicName val="ITG600_F3BUTTON"/>
+          </Object>
+          <Object>
+            <id val="702"/>
+            <ItemIsn val="630"/>
+            <PublicName val="ITG600_F4BUTTON"/>
+          </Object>
+          <Object>
+            <id val="703"/>
+            <ItemIsn val="631"/>
+            <PublicName val="ITG600_Other1BUTTON"/>
+          </Object>
+          <Object>
+            <id val="704"/>
+            <ItemIsn val="632"/>
+            <PublicName val="ITG600_Other2BUTTON"/>
+          </Object>
+          <Object>
+            <id val="705"/>
+            <ItemIsn val="633"/>
+            <PublicName val="ITG600_Other3BUTTON"/>
+          </Object>
+          <Object>
+            <id val="706"/>
+            <ItemIsn val="634"/>
+            <PublicName val="ITG600_Other4BUTTON"/>
+          </Object>
+        </ComponentModels>
+        <ComponentDataObjects>
+          <Object>
+            <id val="2"/>
+            <ItemIsn val="635"/>
+            <PublicName val="MASCOMMON"/>
+          </Object>
+          <Object>
+            <id val="3"/>
+            <ItemIsn val="636"/>
+            <PublicName val="MASCONTROL"/>
+          </Object>
+          <Object>
+            <id val="4"/>
+            <ItemIsn val="637"/>
+            <PublicName val="MASSALE"/>
+          </Object>
+          <Object>
+            <id val="33554440"/>
+            <ItemIsn val="638"/>
+            <PublicName val="MASHOLIDAY"/>
+          </Object>
+          <Object>
+            <id val="33554441"/>
+            <ItemIsn val="639"/>
+            <PublicName val="MASDENPYO"/>
+          </Object>
+          <Object>
+            <id val="33554446"/>
+            <ItemIsn val="640"/>
+            <PublicName val="PRINTDATA_WRK"/>
+          </Object>
+          <Object>
+            <id val="5"/>
+            <ItemIsn val="641"/>
+            <PublicName val="MASTANTOU"/>
+          </Object>
+          <Object>
+            <id val="33554443"/>
+            <ItemIsn val="642"/>
+            <PublicName val="MASDENPYO_ZENSYA"/>
+          </Object>
+        </ComponentDataObjects>
+        <ComponentPrograms>
+          <Object>
+            <id val="40"/>
+            <ItemIsn val="643"/>
+            <PublicName val="B_DENPYOUNOSYUTOKU_ZENSYA"/>
+          </Object>
+          <Object>
+            <id val="33554495"/>
+            <ItemIsn val="644"/>
+            <PublicName val="B_DENPYOUNOSYUTOKU"/>
+          </Object>
+        </ComponentPrograms>
+        <ComponentHelpScreens>
+          <Object>
+            <id val="1"/>
+            <ItemIsn val="645"/>
+            <PublicName val="SYORIMODE"/>
+          </Object>
+          <Object>
+            <id val="2"/>
+            <ItemIsn val="646"/>
+            <PublicName val="SHIIREDENPYOKBN"/>
+          </Object>
+          <Object>
+            <id val="3"/>
+            <ItemIsn val="647"/>
+            <PublicName val="URIAGEDENPYOKBN"/>
+          </Object>
+          <Object>
+            <id val="4"/>
+            <ItemIsn val="648"/>
+            <PublicName val="SYOUHIZEIKBN_KAKE"/>
+          </Object>
+          <Object>
+            <id val="5"/>
+            <ItemIsn val="649"/>
+            <PublicName val="SYOUHIZEIKBN_GENKIN"/>
+          </Object>
+          <Object>
+            <id val="6"/>
+            <ItemIsn val="650"/>
+            <PublicName val="SYOUHIZEIHASUU"/>
+          </Object>
+          <Object>
+            <id val="7"/>
+            <ItemIsn val="651"/>
+            <PublicName val="TANKAKANRI"/>
+          </Object>
+          <Object>
+            <id val="8"/>
+            <ItemIsn val="652"/>
+            <PublicName val="TANKAHASUU"/>
+          </Object>
+          <Object>
+            <id val="9"/>
+            <ItemIsn val="653"/>
+            <PublicName val="KAZEIKBN"/>
+          </Object>
+          <Object>
+            <id val="10"/>
+            <ItemIsn val="654"/>
+            <PublicName val="HINMOKUCDKBN"/>
+          </Object>
+          <Object>
+            <id val="11"/>
+            <ItemIsn val="655"/>
+            <PublicName val="ZYUCHUKBN"/>
+          </Object>
+          <Object>
+            <id val="12"/>
+            <ItemIsn val="656"/>
+            <PublicName val="KENSAKUSYOGOZYUNZYO"/>
+          </Object>
+          <Object>
+            <id val="13"/>
+            <ItemIsn val="657"/>
+            <PublicName val="NYUSYUKKOKBN_A"/>
+          </Object>
+          <Object>
+            <id val="14"/>
+            <ItemIsn val="658"/>
+            <PublicName val="NYUSYUKKOKBN_I"/>
+          </Object>
+          <Object>
+            <id val="15"/>
+            <ItemIsn val="659"/>
+            <PublicName val="FILEKBN"/>
+          </Object>
+        </ComponentHelpScreens>
+        <ComponentFuncs>
+          <Object>
+            <id val="4"/>
+            <ItemIsn val="660"/>
+            <PublicName val="RoundUp"/>
+          </Object>
+          <Object>
+            <id val="6"/>
+            <ItemIsn val="661"/>
+            <PublicName val="GETMODECOLOR"/>
+          </Object>
+          <Object>
+            <id val="8"/>
+            <ItemIsn val="662"/>
+            <PublicName val="IsVal"/>
+          </Object>
+          <Object>
+            <id val="10"/>
+            <ItemIsn val="663"/>
+            <PublicName val="ERRORMESSAGE"/>
+          </Object>
+          <Object>
+            <id val="12"/>
+            <ItemIsn val="664"/>
+            <PublicName val="GETMODEBACK1256_640"/>
+          </Object>
+          <Object>
+            <id val="14"/>
+            <ItemIsn val="665"/>
+            <PublicName val="FILENAMESYUTOKU"/>
+          </Object>
+          <Object>
+            <id val="16"/>
+            <ItemIsn val="666"/>
+            <PublicName val="FILEEXP"/>
+          </Object>
+          <Object>
+            <id val="18"/>
+            <ItemIsn val="667"/>
+            <PublicName val="PRINTReplace"/>
+          </Object>
+        </ComponentFuncs>
+        <ComponentEnvSettings>
+          <Century val="1930"/>
+          <BatchPaintTime val="0"/>
+          <AllowCreateInModify val="Y"/>
+          <AllowUpdateInQuery val="N"/>
+          <ISAMTransaction val="N"/>
+          <IdleTime val="1"/>
+          <CenterScreenInOnline val="N"/>
+          <RepositionAfterModify val="N"/>
+          <DateMode val="J"/>
+        </ComponentEnvSettings>
+      </Component>
+      <Component id="4" name="Flex_DLL">
+        <Description val="Flex_DLL"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <LastISN val="667"/>
+        <AssemblyName val="Flex_DLL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+        <AssemblyPath val="D:\Flex\DLL\Flex_DLL.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="Y"/>
+      </Component>
+      <Component id="5" name="System.Data">
+        <Description val="System.Data"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <LastISN val="667"/>
+        <AssemblyName val="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        <AssemblyPath val="C:\Windows\Microsoft.NET\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="Y"/>
+      </Component>
+      <Component id="6" name="System.Windows.Forms">
+        <Description val="System.Windows.Forms"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <LastISN val="667"/>
+        <AssemblyName val="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        <AssemblyPath val="C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Windows.Forms.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="Y"/>
+      </Component>
+    </Components>
+  </ComponentsRepository>
+
+</Application>

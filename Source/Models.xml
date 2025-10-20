@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <Header>
+    <Version val="14111.00"/>
+    <WithIsn val="Y"/>
+    <LastIsn val="30"/>
+    <LastIsnFolder val="0"/>
+  </Header>
+
+  <ModelsRepository>
+    <Models>
+      <Object id="1" name="SEIRINO">
+        <Comment val="/J 整理No J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="35"/>
+          <DatabaseDefault id="171" valUnicode="''"/>
+          <Size id="174" val="35"/>
+          <DbColumnName id="178" val="SEIRINO"/>
+          <_Flip id="194"/>
+          <DisplayName id="681" valUnicode="SEIRINO"/>
+        </PropertyList>
+      </Object>
+      <Object id="2" name="MEISYO">
+        <Comment val="/J 名称 J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="150"/>
+          <DatabaseDefault id="171" valUnicode="''"/>
+          <Size id="174" val="150"/>
+          <DbColumnName id="178" val="MEISYO"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="3" name="DAIHYOZUMEN">
+        <Comment val="/J 代表図面 J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="2P0"/>
+          <DatabaseDefault id="171" valUnicode="0"/>
+          <DbColumnName id="178" val="DAIHYOZUMEN"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="2"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="4" name="KYOGANSAKI">
+        <Comment val="/J 共願先 J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="50"/>
+          <DatabaseDefault id="171" valUnicode="''"/>
+          <Size id="174" val="50"/>
+          <DbColumnName id="178" val="KYOGANSAKI"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="5" name="SYUTSUGANNO">
+        <Comment val="/J 出願No J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <DatabaseDefault id="171" valUnicode="''"/>
+          <Size id="174" val="20"/>
+          <DbColumnName id="178" val="SYUTSUGANNO"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="6" name="GAIYOU">
+        <Comment val="/J 概要 J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="300"/>
+          <DatabaseDefault id="171" valUnicode="''"/>
+          <Size id="174" val="300"/>
+          <DbColumnName id="178" val="GAIYOU"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="7" name="KOUKAIID">
+        <Comment val="/J 公開ID J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="24"/>
+          <DatabaseDefault id="171" valUnicode="''"/>
+          <Size id="174" val="24"/>
+          <DbColumnName id="178" val="KOUKAIID"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="8">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="9" name="SATEIHUHUKUSHINPANNO">
+        <Comment val="/J 査定不服審判No J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="12"/>
+          <DatabaseDefault id="171" valUnicode="''"/>
+          <Size id="174" val="12"/>
+          <DbColumnName id="178" val="SATEIHUHUKUSHINPANNO"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="10">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="11" name="TOUROKUNO">
+        <Comment val="/J 登録No J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="20"/>
+          <DatabaseDefault id="171" valUnicode="''"/>
+          <Size id="174" val="20"/>
+          <DbColumnName id="178" val="TOUROKUNO"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="12" name="NENKINNOUHUZUMINENSUU">
+        <Comment val="/J 年金納付済年数 J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3Z"/>
+          <DatabaseDefault id="171" valUnicode="0"/>
+          <DbColumnName id="178" val="NENKINNOUHUZUMINENSUU"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="13" name="NENKINNOUHUTANI">
+        <Comment val="/J 年金納付単位 J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="3Z"/>
+          <DatabaseDefault id="171" valUnicode="0"/>
+          <DbColumnName id="178" val="NENKINNOUHUTANI"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="3"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="14">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="15" name="RINGINO">
+        <Comment val="/J 稟議No J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="4"/>
+          <DatabaseDefault id="171" valUnicode="''"/>
+          <Size id="174" val="4"/>
+          <DbColumnName id="178" val="RINGINO"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="16">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="17" name="BIKOU">
+        <Comment val="/J 備考 J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="1500"/>
+          <DatabaseDefault id="171" valUnicode="''"/>
+          <Size id="174" val="1500"/>
+          <DbColumnName id="178" val="BIKOU"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="18">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="19" name="SEIKYUKO">
+        <Comment val="/J 請求項 J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="2100"/>
+          <DatabaseDefault id="171" valUnicode="''"/>
+          <Size id="174" val="2100"/>
+          <DbColumnName id="178" val="SEIKYUKO"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="20">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="21" name="FREEWORD">
+        <Comment val="/J フリーワード J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="50"/>
+          <DatabaseDefault id="171" valUnicode="''"/>
+          <Size id="174" val="50"/>
+          <DbColumnName id="178" val="FREEWORD"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="22">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Size id="174"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="23" name="PAT">
+        <Comment val="/J パターン J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="1"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="1"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="24" name="strConnect">
+        <Comment val="/J 接続情報 J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="200"/>
+          <Size id="174" val="200"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="25" name="StrFile">
+        <Comment val="/J ファイル文字列 J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="100"/>
+          <Size id="174" val="100"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="26" name="Sheet">
+        <Comment val="/J シート J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="30"/>
+          <Size id="174" val="30"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="27" name="ROW_ALL">
+        <Comment val="/J ROW_ALL J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="8"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="8"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="28" name="COL_ALL">
+        <Comment val="/J COL_ALL J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="8"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="8"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="29" name="PRINTXML">
+        <Comment val="/J PRINTXML J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_UNICODE" id="1"/>
+          <Picture id="157" valUnicode="250"/>
+          <Size id="174" val="500"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+      <Object id="30" name="TAB">
+        <Comment val="/J タブ J/"/>
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_NUMERIC" id="1"/>
+          <Picture id="157" valUnicode="1"/>
+          <_Dec id="181"/>
+          <_Whole id="182" val="1"/>
+          <_Negative id="192"/>
+          <_FieldStyle id="276" val="1"/>
+        </PropertyList>
+      </Object>
+    </Models>
+  </ModelsRepository>
+
+</Application>

@@ -4,7 +4,7 @@
   <Header>
     <Version val="14111.00"/>
     <WithIsn val="Y"/>
-    <LastIsn val="30"/>
+    <LastIsn val="31"/>
     <LastIsnFolder val="0"/>
   </Header>
 
@@ -18,6 +18,7 @@
           <DatabaseDefault id="171" valUnicode="''"/>
           <Size id="174" val="35"/>
           <DbColumnName id="178" val="SEIRINO"/>
+          <Type id="179" val="varchar(35)"/>
           <_Flip id="194"/>
           <DisplayName id="681" valUnicode="SEIRINO"/>
         </PropertyList>
@@ -30,6 +31,7 @@
           <DatabaseDefault id="171" valUnicode="''"/>
           <Size id="174" val="150"/>
           <DbColumnName id="178" val="MEISYO"/>
+          <Type id="179" val="varchar(150)"/>
           <_Flip id="194"/>
         </PropertyList>
       </Object>
@@ -40,6 +42,7 @@
           <Picture id="157" valUnicode="2P0"/>
           <DatabaseDefault id="171" valUnicode="0"/>
           <DbColumnName id="178" val="DAIHYOZUMEN"/>
+          <Type id="179" val="smallint"/>
           <_Dec id="181"/>
           <_Whole id="182" val="2"/>
           <_Negative id="192"/>
@@ -54,6 +57,7 @@
           <DatabaseDefault id="171" valUnicode="''"/>
           <Size id="174" val="50"/>
           <DbColumnName id="178" val="KYOGANSAKI"/>
+          <Type id="179" val="varchar(50)"/>
           <_Flip id="194"/>
         </PropertyList>
       </Object>
@@ -65,6 +69,7 @@
           <DatabaseDefault id="171" valUnicode="''"/>
           <Size id="174" val="20"/>
           <DbColumnName id="178" val="SYUTSUGANNO"/>
+          <Type id="179" val="varchar(20)"/>
           <_Flip id="194"/>
         </PropertyList>
       </Object>
@@ -76,6 +81,7 @@
           <DatabaseDefault id="171" valUnicode="''"/>
           <Size id="174" val="300"/>
           <DbColumnName id="178" val="GAIYOU"/>
+          <Type id="179" val="varchar(300)"/>
           <_Flip id="194"/>
         </PropertyList>
       </Object>
@@ -87,6 +93,7 @@
           <DatabaseDefault id="171" valUnicode="''"/>
           <Size id="174" val="24"/>
           <DbColumnName id="178" val="KOUKAIID"/>
+          <Type id="179" val="varchar(24)"/>
           <_Flip id="194"/>
         </PropertyList>
       </Object>
@@ -105,6 +112,7 @@
           <DatabaseDefault id="171" valUnicode="''"/>
           <Size id="174" val="12"/>
           <DbColumnName id="178" val="SATEIHUHUKUSHINPANNO"/>
+          <Type id="179" val="varchar(12)"/>
           <_Flip id="194"/>
         </PropertyList>
       </Object>
@@ -123,6 +131,7 @@
           <DatabaseDefault id="171" valUnicode="''"/>
           <Size id="174" val="20"/>
           <DbColumnName id="178" val="TOUROKUNO"/>
+          <Type id="179" val="varchar(20)"/>
           <_Flip id="194"/>
         </PropertyList>
       </Object>
@@ -133,6 +142,7 @@
           <Picture id="157" valUnicode="3Z"/>
           <DatabaseDefault id="171" valUnicode="0"/>
           <DbColumnName id="178" val="NENKINNOUHUZUMINENSUU"/>
+          <Type id="179" val="smallint"/>
           <_Dec id="181"/>
           <_Whole id="182" val="3"/>
           <_Negative id="192"/>
@@ -146,6 +156,7 @@
           <Picture id="157" valUnicode="3Z"/>
           <DatabaseDefault id="171" valUnicode="0"/>
           <DbColumnName id="178" val="NENKINNOUHUTANI"/>
+          <Type id="179" val="smallint"/>
           <_Dec id="181"/>
           <_Whole id="182" val="3"/>
           <_Negative id="192"/>
@@ -167,6 +178,7 @@
           <DatabaseDefault id="171" valUnicode="''"/>
           <Size id="174" val="4"/>
           <DbColumnName id="178" val="RINGINO"/>
+          <Type id="179" val="varchar(4)"/>
           <_Flip id="194"/>
         </PropertyList>
       </Object>
@@ -185,6 +197,7 @@
           <DatabaseDefault id="171" valUnicode="''"/>
           <Size id="174" val="1500"/>
           <DbColumnName id="178" val="BIKOU"/>
+          <Type id="179" val="varchar(1500)"/>
           <_Flip id="194"/>
         </PropertyList>
       </Object>
@@ -203,6 +216,17 @@
           <DatabaseDefault id="171" valUnicode="''"/>
           <Size id="174" val="2100"/>
           <DbColumnName id="178" val="SEIKYUKO"/>
+          <Type id="179" val="varchar(2100)"/>
+          <_Flip id="194"/>
+        </PropertyList>
+      </Object>
+      <Object id="33554463" name="ZIKENNO">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_ALPHA" id="1"/>
+          <Picture id="157" valUnicode="255"/>
+          <Size id="174" val="255"/>
+          <DbColumnName id="178" val="ZIKENNO"/>
+          <Type id="179" val="varchar(255)"/>
           <_Flip id="194"/>
         </PropertyList>
       </Object>
@@ -221,6 +245,7 @@
           <DatabaseDefault id="171" valUnicode="''"/>
           <Size id="174" val="50"/>
           <DbColumnName id="178" val="FREEWORD"/>
+          <Type id="179"/>
           <_Flip id="194"/>
         </PropertyList>
       </Object>

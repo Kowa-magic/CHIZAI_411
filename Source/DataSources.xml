@@ -8,7 +8,7 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="0"/>
+  <LastIsn val="6"/>
 
   <LastIsnFolder val="0"/>
 
@@ -17,6 +17,1108 @@
 <DataRepositoryProperties/>
  <DataSourceRepository>
   <DataObjects>
-  </DataObjects>
+ 
+<DataObject PhysicalName="MASCONST" Resident="N" UniqueISNConvState="12" data_source="CHIZAI" id="33554434" name="MASCONST">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="33554433"/>
+
+  <IndexesLastIsn val="1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="33554433" name="CONSTSYSTEMID">
+      <Comment val="/J 識別ID J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="3" id="1" obj="80"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="CONSTSYSTEMID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="CONSTSYSTEMID" PIC_U="8" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554434" name="RECORDKBN1">
+      <Comment val="/J レコード区分 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="224"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="RECORDKBN1"/>
+        <Type id="179" val="smallint"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="RECORDKBN1" PIC_U="1Z" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554435" name="CONSTCD">
+      <Comment val="/J コンスタントID J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="CONSTCD"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="CONSTCD" PIC_U="5Z" Size="4" SqlType="Decimal(5,0)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554436" name="CONSTMEI">
+      <Comment val="/J コンスタント名称 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_UNICODE" comp="3" id="1" obj="82"/>
+        <StoredAs id="173" val="32"/>
+        <Size id="174" val="80"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="CONSTMEI"/>
+        <Type id="179" val="character varying(40)"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="CONSTMEI" PIC_U="40" Size="80" SqlType="character varying(40)" allowed_null="N" attribute="U" context_cookies="Y" database_definition="2" id="231" storage="32" translate="3"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554437" name="TOUROKUBI">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="47"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="TUROKUBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="TUROKUBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554439" name="TOUROKUZIKAN">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_TIME" comp="3" id="1" obj="48"/>
+        <StoredAs id="173" val="24"/>
+        <Size id="174" val="6"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="TOUROKUZIKAN"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'000000'" Name="TOUROKUZIKAN" PIC_U="HH:MM:SSZ" Size="6" SqlType="varchar(6)" allowed_null="N" attribute="T" context_cookies="Y" database_definition="2" id="231" storage="24" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554440" name="TOUROKUCD">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="49"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="TOUROKUCD"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="TOUROKUCD" PIC_U="4P0Z" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554441" name="TOUROKUID">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="3" id="1" obj="50"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="TOUROKUID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="TOUROKUID" PIC_U="20" Size="20" SqlType="varchar(20)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554442" name="KOUSHINBI">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="51"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUSHINBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="KOUSHINBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554443" name="KOUSHINZIKAN">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_TIME" comp="3" id="1" obj="52"/>
+        <StoredAs id="173" val="24"/>
+        <Size id="174" val="6"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUSHINZIKAN"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'000000'" Name="KOUSHINZIKAN" PIC_U="HH:MM:SSZ" Size="6" SqlType="varchar(6)" allowed_null="N" attribute="T" context_cookies="Y" database_definition="2" id="231" storage="24" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554444" name="KOUSHINTANMATSU">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="53"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUSHINTANMATSU"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="KOUSHINTANMATSU" PIC_U="4P0Z" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554445" name="KOUSHINCD">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="54"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUSHINCD"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="KOUSHINCD" PIC_U="4P0Z" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554446" name="KOUSHINID">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="3" id="1" obj="55"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUSHINID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="KOUSHINID" PIC_U="20" Size="20" SqlType="varchar(20)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="33554433" name="SYSTEMID_RECORDKBN_CD">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="KEY001"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="Y"/>
+      <Segments>
+        <Segment>
+          <Size val="8"/>
+          <Column val="33554433"/>
+          <Order val="A"/>
+        </Segment>
+        <Segment>
+          <Size val="2"/>
+          <Column val="33554434"/>
+          <Order val="A"/>
+        </Segment>
+        <Segment>
+          <Size val="4"/>
+          <Column val="33554435"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="CHIZAIDAT" Resident="N" UniqueISNConvState="12" data_source="CHIZAI" id="33554438" name="CHIZAIDAT">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="-1"/>
+
+  <IndexesLastIsn val="1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="33554433" name="SEIRINO">
+      <Comment val="/J 整理No J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="1"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="35"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SEIRINO"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="SEIRINO" PIC_U="35" Size="35" SqlType="varchar(35)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554434" name="SYUBETSUID">
+      <Comment val="/J 種別ID J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SYUBETSUID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="SYUBETSUID" PIC_U="5Z" Size="4" SqlType="Decimal(5,0)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554435" name="ZIGYOUBUID">
+      <Comment val="/J 事業部ID J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="ZIGYOUBUID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="ZIGYOUBUID" PIC_U="5Z" Size="4" SqlType="Decimal(5,0)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554436" name="KYOUGANSAKIMEI">
+      <Comment val="/J 共願先 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="4"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="50"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KYOUGANSAKIMEI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="KYOUGANSAKIMEI" PIC_U="50" Size="50" SqlType="varchar(50)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554437" name="DAIRININID">
+      <Comment val="/J 代理人ID J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="DAIRININID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="DAIRININID" PIC_U="5Z" Size="4" SqlType="Decimal(5,0)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554438" name="SYUTSUGANBI">
+      <Comment val="/J 出願日 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SYUTSUGANBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="SYUTSUGANBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554439" name="SYUTSUGANRYAKUSYOUID">
+      <Comment val="/J 出願略称ID J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SYUTSUGANRYAKUSYOUID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="SYUTSUGANRYAKUSYOUID" PIC_U="5Z" Size="4" SqlType="Decimal(5,0)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554440" name="SYUTSUGANNO">
+      <Comment val="/J 出願No J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="5"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SYUTSUGANNO"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="SYUTSUGANNO" PIC_U="20" Size="20" SqlType="varchar(20)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554441" name="KOUKAIRYAKUSYOUID">
+      <Comment val="/J 公開略称ID J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUKAIRYAKUSYOUID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="KOUKAIRYAKUSYOUID" PIC_U="5Z" Size="4" SqlType="Decimal(5,0)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554442" name="KOUKAINO">
+      <Comment val="/J 公開No J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="7"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="24"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUKAINO"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="KOUKAINO" PIC_U="24" Size="24" SqlType="varchar(24)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554443" name="TOUROKUNO">
+      <Comment val="/J 公開No J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="11"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="TOUROKUNO"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="TOUROKUNO" PIC_U="20" Size="20" SqlType="varchar(20)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554444" name="MEISYOU">
+      <Comment val="/J 名称 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="2"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="150"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="MEISYOU"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="MEISYOU" PIC_U="150" Size="150" SqlType="varchar(150)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554445" name="SHINSASEIKYUBI">
+      <Comment val="/J 審査請求日 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SHINSASEIKYUBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="SHINSASEIKYUBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554446" name="KYOZETSURIYUTSUTIBI1">
+      <Comment val="/J 拒絶理由通知日1 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KYOZETSURIYUTSUTIBI1"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="KYOZETSURIYUTSUTIBI1" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554447" name="KYOZETSURIYUTSUTIBI2">
+      <Comment val="/J 拒絶理由通知日2 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KYOZETSURIYUTSUTIBI2"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="KYOZETSURIYUTSUTIBI2" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554448" name="KYOZETSURIYUTSUTIBI3">
+      <Comment val="/J 拒絶理由通知日3 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KYOZETSURIYUTSUTIBI3"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="KYOZETSURIYUTSUTIBI3" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554449" name="KYOZETSURIYUTSUTIBI4">
+      <Comment val="/J 拒絶理由通知日4 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KYOZETSURIYUTSUTIBI4"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="KYOZETSURIYUTSUTIBI4" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554450" name="KYOZETSURIYUTSUTIBI5">
+      <Comment val="/J 拒絶理由通知日5 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KYOZETSURIYUTSUTIBI5"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="KYOZETSURIYUTSUTIBI5" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554451" name="KYOZETSURIYUTSUTIBI6">
+      <Comment val="/J 拒絶理由通知日7 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KYOZETSURIYUTSUTIBI6"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="KYOZETSURIYUTSUTIBI6" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554452" name="KYOZETSURIYUTSUTIBI7">
+      <Comment val="/J 拒絶理由通知日7 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KYOZETSURIYUTSUTIBI7"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="KYOZETSURIYUTSUTIBI7" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554453" name="KYOZETSUSATEIBI">
+      <Comment val="/J 拒絶査定日 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KYOZETSUSATEIBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="KYOZETSUSATEIBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554454" name="TOUROKUSATEIBI">
+      <Comment val="/J 登録査定日 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="TOUROKUSATEIBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="TOUROKUSATEIBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554455" name="ZIKAITETSUDUKIID">
+      <Comment val="/J 次回手続ID J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="ZIKAITETSUDUKIID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="ZIKAITETSUDUKIID" PIC_U="5Z" Size="4" SqlType="Decimal(5,0)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554456" name="RINGISYONO">
+      <Comment val="/J 稟議書No J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="15"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="RINGISYONO"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="RINGISYONO" PIC_U="4" Size="4" SqlType="varchar(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554457" name="RINGISYONO_Work">
+      <Comment val="/J 稟議書No_work J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="15"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="RINGISYONO_Work"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="RINGISYONO_Work" PIC_U="4" Size="4" SqlType="varchar(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554458" name="PRE_RINGISYONO">
+      <Comment val="/J 前稟議書No J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="15"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="PRE_RINGISYONO"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="PRE_RINGISYONO" PIC_U="4" Size="4" SqlType="varchar(4)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554459" name="ZIKAIHOUTEIKIGEN">
+      <Comment val="/J 次回法定期限 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="ZIKAIHOUTEIKIGEN"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="ZIKAIHOUTEIKIGEN" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554460" name="TETSUDUKIHIYOU">
+      <Comment val="/J 手続費用 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="309"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="TETSUDUKIHIYOU"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="TETSUDUKIHIYOU" PIC_U="N8CZ" Size="4" SqlType="Decimal(8,0)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554461" name="SATEIHUHUKUSAIBANSEIKYUBI">
+      <Comment val="/J 査定不服裁判請求日 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SATEIHUHUKUSAIBANSEIKYUBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="SATEIHUHUKUSAIBANSEIKYUBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554462" name="SATEIHUHUKUSHINPANNO">
+      <Comment val="/J 査定不服審判No J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="9"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="12"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SATEIHUHUKUSHINPANNO"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="SATEIHUHUKUSHINPANNO" PIC_U="12" Size="12" SqlType="varchar(12)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554463" name="SHINZINHASSOUBI">
+      <Comment val="/J 審尋発送日 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SHINZINHASSOUBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="SHINZINHASSOUBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554464" name="SHINKETSUHASSOUBI">
+      <Comment val="/J 審決発送日 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SHINKETSUHASSOUBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="SHINKETSUHASSOUBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554465" name="SHINKETUKEKKAID">
+      <Comment val="/J 審決結果ID J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SHINKETUKEKKAID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="SHINKETUKEKKAID" PIC_U="5Z" Size="4" SqlType="Decimal(5,0)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554466" name="SOZYOTEISYUTSUBI">
+      <Comment val="/J 訴状提出日 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SOZYOTEISYUTSUBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="SOZYOTEISYUTSUBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554467" name="ZIKENNO">
+      <Comment val="/J 事件No J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="33554463"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="255"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="ZIKENNO"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="ZIKENNO" PIC_U="255" Size="255" SqlType="varchar(255)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554468" name="HANKETSUBI">
+      <Comment val="/J 判決日 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="HANKETSUBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="HANKETSUBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554469" name="HANKETSUKEKKAID">
+      <Comment val="/J 判決結果ID J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="HANKETSUKEKKAID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="HANKETSUKEKKAID" PIC_U="5Z" Size="4" SqlType="Decimal(5,0)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554470" name="NENKINNOUHUZUMINENSUU">
+      <Comment val="/J 年金納付済年数 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="12"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="NENKINNOUHUZUMINENSUU"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="NENKINNOUHUZUMINENSUU" PIC_U="3Z" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554471" name="NENKINNOUHUTANI">
+      <Comment val="/J 年金納付単位 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="13"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="NENKINNOUHUTANI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="NENKINNOUHUTANI" PIC_U="3Z" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554472" name="NENKINKANRISYAID">
+      <Comment val="/J 年金管理者ID J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="NENKINKANRISYAID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="NENKINKANRISYAID" PIC_U="5Z" Size="4" SqlType="Decimal(5,0)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554473" name="SONZOKUKIKANMANRYOBI">
+      <Comment val="/J 存続期間満了日 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SONZOKUKIKANMANRYOBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="SONZOKUKIKANMANRYOBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554474" name="BUNRUIID">
+      <Comment val="/J 分類ID J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="BUNRUIID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="BUNRUIID" PIC_U="5Z" Size="4" SqlType="Decimal(5,0)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554475" name="GAIYOU">
+      <Comment val="/J 概要 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="6"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="300"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="GAIYOU"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="GAIYOU" PIC_U="300" Size="300" SqlType="varchar(300)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554476" name="BIKOU">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="17"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="1500"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="BIKOU"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="BIKOU" PIC_U="1500" Size="1500" SqlType="varchar(1500)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554477" name="SYURYOSYONINBI">
+      <Comment val="/J 終了承認日 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SYURYOSYONINBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="SYURYOSYONINBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554478" name="ANKENSYURYOBI">
+      <Comment val="/J 案件終了日 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="ANKENSYURYOBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="ANKENSYURYOBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554479" name="SYURYOYOUINID">
+      <Comment val="/J 終了要因ID J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SYURYOYOUINID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="SYURYOYOUINID" PIC_U="5Z" Size="4" SqlType="Decimal(5,0)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554480" name="DAIHYOUZUMEN">
+      <Comment val="/J 代表図面 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="3"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="DAIHYOUZUMEN"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="DAIHYOUZUMEN" PIC_U="2P0" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="33554433" name="SEIRINO">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="KEY001"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="Y"/>
+      <Segments>
+        <Segment>
+          <Size val="35"/>
+          <Column val="33554433"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="SEIKYUKOUDAT" Resident="N" UniqueISNConvState="12" data_source="CHIZAI" id="33554435" name="SEIKYUKOUDAT">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="33554433"/>
+
+  <IndexesLastIsn val="2"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="33554433" name="SEIRINO">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="1"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="35"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SEIRINO"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="SEIRINO" PIC_U="35" Size="35" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554434" name="MEISAIGYO">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="355"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="MEISAIGYO"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="MEISAIGYO" PIC_U="4Z" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554435" name="SEIKYUKO">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="2100"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="SEIKYUKO"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="SEIKYUKO" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554436" name="TOUROKUBI">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="47"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="TUORKUBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="TUORKUBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554437" name="TOUROKUZIKAN">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_TIME" comp="3" id="1" obj="48"/>
+        <StoredAs id="173" val="24"/>
+        <Size id="174" val="6"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="TOUROKUZIKAN"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'000000'" Name="TOUROKUZIKAN" PIC_U="HH:MM:SSZ" Size="6" SqlType="varchar(6)" allowed_null="N" attribute="T" context_cookies="Y" database_definition="2" id="231" storage="24" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554438" name="TOURKUCD">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="49"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="TUORKUCD"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="TUORKUCD" PIC_U="4P0Z" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554439" name="TOUROKUID">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="3" id="1" obj="50"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="TOUROKUID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="TOUROKUID" PIC_U="20" Size="20" SqlType="varchar(20)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554440" name="KOUSHINBI">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="51"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUSHINBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="KOUSHINBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554441" name="KOUSHINZIKAN">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_TIME" comp="3" id="1" obj="52"/>
+        <StoredAs id="173" val="24"/>
+        <Size id="174" val="6"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUSHINZIKAN"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'000000'" Name="KOUSHINZIKAN" PIC_U="HH:MM:SSZ" Size="6" SqlType="varchar(6)" allowed_null="N" attribute="T" context_cookies="Y" database_definition="2" id="231" storage="24" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554442" name="KOUSHINTANMATSU">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="53"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUSHINTANMATSU"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="KOUSHINTANMATSU" PIC_U="4P0Z" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554443" name="KOUSHINCD">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="54"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUSHINCD"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="KOUSHINCD" PIC_U="4P0Z" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554444" name="KOUSHINID">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="3" id="1" obj="55"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUSHINID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="KOUSHINID" PIC_U="20" Size="20" SqlType="varchar(20)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="33554433" name="SEIRINO_MEISAIGYO">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="KEY01"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="Y"/>
+      <Segments>
+        <Segment>
+          <Size val="35"/>
+          <Column val="33554433"/>
+          <Order val="A"/>
+        </Segment>
+        <Segment>
+          <Size val="2"/>
+          <Column val="33554434"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+    <Index id="33554434" name="SEIRINO">
+      <Mode val="N"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="INDEX01"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="N"/>
+      <Segments>
+        <Segment>
+          <Size val="35"/>
+          <Column val="33554433"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject Resident="N" UniqueISNConvState="12" data_source="Default Database" id="33554436">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="P"/>
+
+  <HasHint val="Y"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <PositionIndex val="-1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns/>
+
+  <Indexes/>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject PhysicalName="CHIZAIDAT_WRK" Resident="N" UniqueISNConvState="12" data_source="Memory" id="33554437" name="CHIZAIDAT_WRK">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="P"/>
+
+  <HasHint val="Y"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <PositionIndex val="-1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns/>
+
+  <Indexes/>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject>  </DataObjects>
  </DataSourceRepository>
   </Application>

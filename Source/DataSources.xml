@@ -248,7 +248,7 @@
 
   <Position val="D"/>
 
-  <PositionIndex val="-1"/>
+  <PositionIndex val="33554433"/>
 
   <IndexesLastIsn val="1"/>
 
@@ -838,7 +838,7 @@
       <Order val="T"/>
       <Range val="Q"/>
       <IndexType val="R"/>
-      <PhysicalName val="KEY001"/>
+      <PhysicalName val="CHIZAIDAT_KEY001"/>
       <HasHint val="Y"/>
       <Clustered val="N"/>
       <DropOnReindex val="N"/>

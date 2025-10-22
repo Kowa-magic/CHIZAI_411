@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="P_CHIZAIMENU" ISN_2="1" LastIsn="1" id="5">
-          <LastModified _date="739544" _time="53364" date="2025/10/20" time="14:49:24"/>
+          <LastModified _date="739547" _time="31576" date="2025/10/23" time="08:46:16"/>
           <Comment val="/J 知財メニュー J/"/>
           <Public val="CHIZAI_MENU"/>
           <ExecutionRight comp="-1"/>
@@ -27,7 +27,7 @@
           <SqlWhereExist val="N"/>
           <TaskType val="C"/>
           <Interactive val="Y"/>
-          <External val="Y"/>
+          <External val="N"/>
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>

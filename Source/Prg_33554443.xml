@@ -13,8 +13,9 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="P_MASCONSTSYUTOKU" ISN_2="1" LastIsn="1" id="33554443">
-          <LastModified _date="739545" _time="64951" date="2025/10/21" time="18:02:31"/>
+        <Header Description="B_MASCONSTSYUTOKU" ISN_2="1" LastIsn="1" id="33554443">
+          <LastModified _date="739546" _time="41441" date="2025/10/22" time="11:30:41"/>
+          <Comment val="/J コンスタントマスタ取得 J/"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -385,7 +386,7 @@
           <FormEntry id="1">
             <PropertyList model="FORM_GUI0">
               <_Comment id="218"/>
-              <FormName id="311" valUnicode="P_MASCONSTSYUTOKU"/>
+              <FormName id="311" valUnicode="B_MASCONSTSYUTOKU"/>
             </PropertyList>
           </FormEntry>
         </TaskForms>

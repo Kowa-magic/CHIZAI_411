@@ -25,7 +25,7 @@
         <ComponentType val="Magic xpa"/>
         <Type val="U"/>
         <LoadImmediate val="Y"/>
-        <LastISN val="667"/>
+        <LastISN val="689"/>
         <CompId val="4269075950-42027-16893-B155C8111"/>
         <MciFile val="D:\PRG411\comp\MainControl.eci"/>
         <ProjectFile val="D:\git_411\MainControl\MainControl.edp"/>
@@ -3204,6 +3204,11 @@
         </ComponentModels>
         <ComponentDataObjects>
           <Object>
+            <id val="6"/>
+            <ItemIsn val="33555100"/>
+            <PublicName val="WORK_BASE"/>
+          </Object>
+          <Object>
             <id val="2"/>
             <ItemIsn val="635"/>
             <PublicName val="MASCOMMON"/>
@@ -3239,12 +3244,102 @@
             <PublicName val="MASTANTOU"/>
           </Object>
           <Object>
+            <id val="33554448"/>
+            <ItemIsn val="33555101"/>
+            <PublicName val="MASTANICONVERT"/>
+          </Object>
+          <Object>
+            <id val="34603025"/>
+            <ItemIsn val="33555102"/>
+            <PublicName val="MASMESSAGE"/>
+          </Object>
+          <Object>
             <id val="33554443"/>
             <ItemIsn val="642"/>
             <PublicName val="MASDENPYO_ZENSYA"/>
           </Object>
         </ComponentDataObjects>
         <ComponentPrograms>
+          <Object>
+            <id val="5"/>
+            <ItemIsn val="33555103"/>
+            <PublicName val="B_TANTOUSYAZYOUHOUSYUTOKU"/>
+          </Object>
+          <Object>
+            <id val="8"/>
+            <ItemIsn val="33555104"/>
+            <PublicName val="B_ERRORMESSAGE"/>
+          </Object>
+          <Object>
+            <id val="12"/>
+            <ItemIsn val="33555105"/>
+            <PublicName val="B_NINIBINOSHIMEHANI"/>
+          </Object>
+          <Object>
+            <id val="13"/>
+            <ItemIsn val="33555106"/>
+            <PublicName val="B_NININENGETSUNOSHIMEHANI"/>
+          </Object>
+          <Object>
+            <id val="14"/>
+            <ItemIsn val="33555107"/>
+            <PublicName val="B_NINIBINONENDO"/>
+          </Object>
+          <Object>
+            <id val="15"/>
+            <ItemIsn val="33555108"/>
+            <PublicName val="B_NININENGETSUDONOTSUKISUU"/>
+          </Object>
+          <Object>
+            <id val="16"/>
+            <ItemIsn val="33555109"/>
+            <PublicName val="B_NINIBINOKISYUNENGETSUDO"/>
+          </Object>
+          <Object>
+            <id val="17"/>
+            <ItemIsn val="33555110"/>
+            <PublicName val="B_NINIBINOKISYUNENGETSUBI"/>
+          </Object>
+          <Object>
+            <id val="18"/>
+            <ItemIsn val="33555111"/>
+            <PublicName val="B_NININENDONOKISYUNENGETSUDO"/>
+          </Object>
+          <Object>
+            <id val="19"/>
+            <ItemIsn val="33555112"/>
+            <PublicName val="B_NINBINONENDO_NENGETSUDO_TSUK"/>
+          </Object>
+          <Object>
+            <id val="21"/>
+            <ItemIsn val="33555113"/>
+            <PublicName val="B_SYOUHIZEISYUTOKU"/>
+          </Object>
+          <Object>
+            <id val="22"/>
+            <ItemIsn val="33555114"/>
+            <PublicName val="B_SYOHIZEIGAKUKEISAN"/>
+          </Object>
+          <Object>
+            <id val="24"/>
+            <ItemIsn val="33555115"/>
+            <PublicName val="B_KADOUBIKEISAN_GET"/>
+          </Object>
+          <Object>
+            <id val="25"/>
+            <ItemIsn val="33555116"/>
+            <PublicName val="B_KADOUNISUU_GET"/>
+          </Object>
+          <Object>
+            <id val="26"/>
+            <ItemIsn val="33555117"/>
+            <PublicName val="B_KADOUBICHECK"/>
+          </Object>
+          <Object>
+            <id val="35"/>
+            <ItemIsn val="33555118"/>
+            <PublicName val="R_KAKUNIN(Y/N/C)"/>
+          </Object>
           <Object>
             <id val="40"/>
             <ItemIsn val="643"/>
@@ -3254,6 +3349,21 @@
             <id val="33554495"/>
             <ItemIsn val="644"/>
             <PublicName val="B_DENPYOUNOSYUTOKU"/>
+          </Object>
+          <Object>
+            <id val="33554496"/>
+            <ItemIsn val="33555119"/>
+            <PublicName val="B_TANICONVERT"/>
+          </Object>
+          <Object>
+            <id val="49"/>
+            <ItemIsn val="33555120"/>
+            <PublicName val="MailSend"/>
+          </Object>
+          <Object>
+            <id val="50"/>
+            <ItemIsn val="33555121"/>
+            <PublicName val="RB_MailSend"/>
           </Object>
         </ComponentPrograms>
         <ComponentHelpScreens>

@@ -8,7 +8,7 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="8"/>
+  <LastIsn val="13"/>
 
   <LastIsnFolder val="0"/>
 
@@ -18,7 +18,7 @@
  <DataSourceRepository>
   <DataObjects>
  
-<DataObject PhysicalName="MASCONST" Resident="N" UniqueISNConvState="12" data_source="CHIZAI" id="33554434" name="MASCONST">
+<DataObject Comment="/J コンスタントマスタ J/" PhysicalName="MASCONST" Resident="N" UniqueISNConvState="12" data_source="CHIZAI" id="33554434" name="MASCONST">
 
   <Encrypt val="N"/>
 
@@ -123,7 +123,7 @@
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="TOUROKUCD"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="TOUROKUCD" PIC_U="4P0Z" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="TOUROKUCD" PIC_U="5P0Z" Size="2" SqlType="int" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="33554441" name="TOUROKUID">
@@ -161,13 +161,13 @@
     </Column>
     <Column id="33554444" name="KOUSHINTANMATSU">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="53"/>
+        <Model attr_obj="FIELD_ALPHA" comp="3" id="1" obj="53"/>
         <StoredAs id="173" val="4"/>
         <Size id="174" val="2"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="KOUSHINTANMATSU"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="KOUSHINTANMATSU" PIC_U="4P0Z" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="KOUSHINTANMATSU" PIC_U="40" Size="2" SqlType="varchar(40)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="33554445" name="KOUSHINCD">
@@ -178,7 +178,7 @@
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="KOUSHINCD"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="KOUSHINCD" PIC_U="4P0Z" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="KOUSHINCD" PIC_U="5P0Z" Size="2" SqlType="integer" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="33554446" name="KOUSHINID">
@@ -230,7 +230,205 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="CHIZAIDAT" Resident="N" UniqueISNConvState="12" data_source="CHIZAI" id="33554438" name="CHIZAIDAT">
+<DataObject PhysicalName="AUTHORITY" Resident="N" UniqueISNConvState="12" data_source="CHIZAI" id="33554444" name="AUTHORITY">
+
+  <Encrypt val="N"/>
+
+  <Cache val="D"/>
+
+  <IdentifyRowModifications val="U"/>
+
+  <HasHint val="Y"/>
+
+  <Cursor val="D"/>
+
+  <CheckExistence val="D"/>
+
+  <ObjectType val="T"/>
+
+  <Position val="D"/>
+
+  <PositionIndex val="33554433"/>
+
+  <IndexesLastIsn val="1"/>
+
+  <MetaTreeRTIndex val="-1"/>
+
+  <Columns>
+    <Column id="33554433" name="TANTOUCD">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="226"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="TANTOUCD"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="TANTOUCD" PIC_U="5P0Z" Size="4" SqlType="Decimal(5,0)" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554434" name="REFERENCE">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_LOGICAL" comp="3" id="1" obj="33"/>
+        <StoredAs id="173" val="15"/>
+        <Size id="174" val="1"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="REFERENCE"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="REFERENCE" PIC_U="5" Size="1" SqlType="boolean" allowed_null="N" attribute="B" context_cookies="Y" database_definition="2" id="231" storage="15" translate="1"/>
+        <DisplayName id="681" valUnicode="REFERENCE"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554435" name="CHANGE">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_LOGICAL" comp="3" id="1" obj="33"/>
+        <StoredAs id="173" val="15"/>
+        <Size id="174" val="1"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="CHANGE"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="CHANGE" PIC_U="5" Size="1" SqlType="boolean" allowed_null="N" attribute="B" context_cookies="Y" database_definition="2" id="231" storage="15" translate="1"/>
+        <DisplayName id="681" valUnicode="CHANGE"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554436" name="ERASE">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_LOGICAL" comp="3" id="1" obj="33"/>
+        <StoredAs id="173" val="15"/>
+        <Size id="174" val="1"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="ERASE"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="ERASE" PIC_U="5" Size="1" SqlType="boolean" allowed_null="N" attribute="B" context_cookies="Y" database_definition="2" id="231" storage="15" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554437" name="TOUROKUBI">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="47"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="TOUROKUBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="TOUROKUBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554438" name="TOUROKUZIKAN">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_TIME" comp="3" id="1" obj="48"/>
+        <StoredAs id="173" val="24"/>
+        <Size id="174" val="6"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="TOUROKUZIKAN"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'000000'" Name="TOUROKUZIKAN" PIC_U="HH:MM:SSZ" Size="6" SqlType="varchar(6)" allowed_null="N" attribute="T" context_cookies="Y" database_definition="2" id="231" storage="24" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554439" name="TOUROKUCD">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="49"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="TOUROKUCD"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="TOUROKUCD" PIC_U="5P0Z" Size="4" SqlType="int" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554440" name="TOUROKUID">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="3" id="1" obj="50"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="TOUROKUID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="TOUROKUID" PIC_U="20" Size="20" SqlType="varchar(20)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554441" name="KOUSHINBI">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="51"/>
+        <StoredAs id="173" val="19"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUSHINBI"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'00000000'" Name="KOUSHINBI" PIC_U="YYYY/MM/DDZ" Size="8" SqlType="varchar(8)" allowed_null="N" attribute="D" context_cookies="Y" database_definition="2" id="231" storage="19" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554442" name="KOUSHINZIKAN">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_TIME" comp="3" id="1" obj="52"/>
+        <StoredAs id="173" val="24"/>
+        <Size id="174" val="6"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUSHINZIKAN"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="'000000'" Name="KOUSHINZIKAN" PIC_U="HH:MM:SSZ" Size="6" SqlType="varchar(6)" allowed_null="N" attribute="T" context_cookies="Y" database_definition="2" id="231" storage="24" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554443" name="KOUSHINTANMATSU">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="3" id="1" obj="53"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="40"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUSHINTANMATSU"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="KOUSHINTANMATSU" PIC_U="40" Size="40" SqlType="varchar(40)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554444" name="KOUSHINNCD">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="54"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="4"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUSHINNCD"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="KOUSHINNCD" PIC_U="5P0Z" Size="4" SqlType="integer" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
+    <Column id="33554445" name="KOUSHINID">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_ALPHA" comp="3" id="1" obj="55"/>
+        <StoredAs id="173" val="3"/>
+        <Size id="174" val="20"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="KOUSHINID"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="KOUSHINID" PIC_U="20" Size="20" SqlType="varchar(20)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+      </PropertyList>
+    </Column>
+  </Columns>
+
+  <Indexes>
+    <Index id="33554433" name="TANTOUCD">
+      <Mode val="S"/>
+      <Order val="T"/>
+      <Range val="Q"/>
+      <IndexType val="R"/>
+      <PhysicalName val="AUTHORITY_KEY001"/>
+      <HasHint val="Y"/>
+      <Clustered val="N"/>
+      <DropOnReindex val="N"/>
+      <Primary val="Y"/>
+      <Segments>
+        <Segment>
+          <Size val="4"/>
+          <Column val="33554433"/>
+          <Order val="A"/>
+        </Segment>
+      </Segments>
+    </Index>
+  </Indexes>
+
+  <ForeignKeys/>
+
+  <WebS/>
+
+</DataObject> 
+<DataObject Comment="/J 知財テーブル J/" PhysicalName="CHIZAIDAT" Resident="N" UniqueISNConvState="12" data_source="CHIZAI" id="33554438" name="CHIZAIDAT">
 
   <Encrypt val="N"/>
 
@@ -858,7 +1056,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="SEIKYUKOUDAT" Resident="N" UniqueISNConvState="12" data_source="CHIZAI" id="33554435" name="SEIKYUKOUDAT">
+<DataObject Comment="/J 請求項テーブル J/" PhysicalName="SEIKYUKOUDAT" Resident="N" UniqueISNConvState="12" data_source="CHIZAI" id="33554435" name="SEIKYUKOUDAT">
 
   <Encrypt val="N"/>
 
@@ -891,7 +1089,7 @@
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="SEIRINO"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" Name="SEIRINO" PIC_U="35" Size="35" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="SEIRINO" PIC_U="35" Size="35" SqlType="varchar(35)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="33554434" name="MEISAIGYO">
@@ -913,7 +1111,7 @@
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="SEIKYUKO"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" Name="SEIKYUKO" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="SEIKYUKO" PIC_U="2100" Size="2100" SqlType="varchar(2100)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="3" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="33554436" name="TOUROKUBI">
@@ -946,7 +1144,7 @@
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="TUORKUCD"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="TUORKUCD" PIC_U="4P0Z" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="TUORKUCD" PIC_U="5P0Z" Size="2" SqlType="int" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="33554439" name="TOUROKUID">
@@ -984,13 +1182,13 @@
     </Column>
     <Column id="33554442" name="KOUSHINTANMATSU">
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="53"/>
+        <Model attr_obj="FIELD_ALPHA" comp="3" id="1" obj="53"/>
         <StoredAs id="173" val="4"/>
         <Size id="174" val="2"/>
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="KOUSHINTANMATSU"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="KOUSHINTANMATSU" PIC_U="4P0Z" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="''" Name="KOUSHINTANMATSU" PIC_U="40" Size="2" SqlType="varchar(40)" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="33554443" name="KOUSHINCD">
@@ -1001,7 +1199,7 @@
         <Definition id="175" val="2"/>
         <DbColumnName id="178" val="KOUSHINCD"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="0" Name="KOUSHINCD" PIC_U="4P0Z" Size="2" SqlType="smallint" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" Name="KOUSHINCD" PIC_U="5P0Z" Size="2" SqlType="integer" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
     <Column id="33554444" name="KOUSHINID">
@@ -1093,7 +1291,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="CHIZAIDAT_WRK" Resident="N" UniqueISNConvState="12" data_source="Memory" id="33554437" name="CHIZAIDAT_WRK">
+<DataObject Comment="/J 知財データワーク J/" PhysicalName="CHIZAIDAT_WRK" Resident="N" UniqueISNConvState="12" data_source="Memory" id="33554437" name="CHIZAIDAT_WRK">
 
   <Encrypt val="N"/>
 
@@ -1120,7 +1318,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="SEIKYUKO_110_WRK" Resident="N" UniqueISNConvState="12" data_source="Memory" id="33554439" name="SEIKYUKO_0115_WRK">
+<DataObject Comment="/J 請求項データワーク J/" PhysicalName="SEIKYUKO_110_WRK" Resident="N" UniqueISNConvState="12" data_source="Memory" id="33554439" name="SEIKYUKO_0115_WRK">
 
   <Encrypt val="N"/>
 
@@ -1343,7 +1541,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject PhysicalName="SEIKYUKO_16_30_WRK" Resident="N" UniqueISNConvState="12" data_source="Memory" id="33554440" name="SEIKYUKO_16_30_WRK">
+<DataObject Comment="/J 請求項データワーク J/" PhysicalName="SEIKYUKO_16_30_WRK" Resident="N" UniqueISNConvState="12" data_source="Memory" id="33554440" name="SEIKYUKO_16_30_WRK">
 
   <Encrypt val="N"/>
 

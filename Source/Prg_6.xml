@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="P_CHIZAI_INFO" ISN_2="1" LastIsn="8" id="6">
-          <LastModified _date="739546" _time="62223" date="2025/10/22" time="17:17:03"/>
+          <LastModified _date="739547" _time="50105" date="2025/10/23" time="13:55:05"/>
           <Comment val="/J 知財　詳細情報 J/"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
@@ -3037,9 +3037,9 @@
                 </BLOCK>
               </LogicLine>
               <LogicLine>
-                <Remark FlowIsn="115">
+                <Remark FlowIsn="33555118">
                   <Type val="2"/>
-                  <Text val="//登録処理を行う"/>
+                  <Text val="//確認ダイアログ表示"/>
                 </Remark>
               </LogicLine>
               <LogicLine>

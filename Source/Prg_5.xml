@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="P_CHIZAIMENU" ISN_2="1" LastIsn="1" id="5">
-          <LastModified _date="739547" _time="31576" date="2025/10/23" time="08:46:16"/>
+          <LastModified _date="739547" _time="63381" date="2025/10/23" time="17:36:21"/>
           <Comment val="/J 知財メニュー J/"/>
           <Public val="CHIZAI_MENU"/>
           <ExecutionRight comp="-1"/>
@@ -32,8 +32,16 @@
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
         </Header>
-        <ItemIsn val="1"/>
+        <ItemIsn val="5"/>
         <Resource>
+          <DB id="33554433">
+            <DataObject comp="-1" obj="33554444"/>
+            <Access val="R"/>
+            <Share val="W"/>
+            <Open val="N"/>
+            <Cache val="N"/>
+            <IdentifyRowModifications val="84"/>
+          </DB>
           <Columns>
             <Column id="1" name="V_SYORIMODE">
               <PropertyList model="FIELD">
@@ -141,6 +149,76 @@
                   <Modifier val="S"/>
                   <Direction val="C"/>
                 </Select>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="33554443">
+                  <Type val="1"/>
+                  <Text val=" "/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
+                <LNK Direction="A" EVL_CND="R" FlowIsn="33554444" Key="33554433" Mode="R" SortType="33554445" VIEW="2" VIEWS="4">
+                  <DB comp="-1" obj="33554444"/>
+                  <Condition val="Y"/>
+                </LNK>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="33554434" FlowIsn="33554446" id="33554434">
+                  <Column val="33554433"/>
+                  <Type val="R"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <Locate MAX="33554434" MIN="33554434"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="N"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="33554435" FlowIsn="33554447" id="33554435">
+                  <Column val="33554434"/>
+                  <Type val="R"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="N"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="33554436" FlowIsn="33554448" id="33554436">
+                  <Column val="33554435"/>
+                  <Type val="R"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <INT_DIT_INFO>
+                    <v>4</v>
+                  </INT_DIT_INFO>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="N"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="33554437" FlowIsn="33554449" id="33554437">
+                  <Column val="33554436"/>
+                  <Type val="R"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <INT_DIT_INFO>
+                    <v>4</v>
+                  </INT_DIT_INFO>
+                  <DIFF_UPDATE val="T"/>
+                  <Condition val="N"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <END_LINK FlowIsn="33554445"/>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -402,6 +480,7 @@
                 <Width id="23" val="72"/>
                 <Height id="24" val="37"/>
                 <ControlName id="46" val="V_INFOMATION"/>
+                <Visible Exp="33554435" id="61"/>
                 <Format id="82" valUnicode="詳細情報(データ入力)"/>
                 <RaiseEvent id="234">
                   <EventType val="U"/>
@@ -431,6 +510,14 @@
           <Expression id="1">
             <ExpSyntax val="0"/>
             <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="33554434">
+            <ExpSyntax val="{32768,1}"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="33554435">
+            <ExpSyntax val="{0,33554436} OR {0,33554437}"/>
+            <ExpAttribute val="B"/>
           </Expression>
         </Expressions>
         <EVNT DESC="SEARCH" FORCE_EXIT="N" id="1">

@@ -14,7 +14,7 @@
     <Programs>
       <Task MainProgram="N">
         <Header Description="P_CHIZAI_INFO" ISN_2="1" LastIsn="8" id="6">
-          <LastModified _date="739547" _time="50105" date="2025/10/23" time="13:55:05"/>
+          <LastModified _date="739548" _time="54830" date="2025/10/24" time="15:13:50"/>
           <Comment val="/J 知財　詳細情報 J/"/>
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
@@ -35,7 +35,7 @@
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
         </Header>
-        <ItemIsn val="99"/>
+        <ItemIsn val="101"/>
         <Resource>
           <Columns>
             <Column id="1" name="P.SYORIMODE">
@@ -60,6 +60,7 @@
               </PropertyList>
             </Column>
             <Column id="3" name="V_SEIRINO">
+              <Comment val="/J 整理No J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="1"/>
                 <StoredAs id="173" val="1"/>
@@ -69,6 +70,7 @@
               </PropertyList>
             </Column>
             <Column id="4" name="V_MEISYO">
+              <Comment val="/J 名称 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="2"/>
                 <DbColumnName id="178"/>
@@ -77,6 +79,7 @@
               </PropertyList>
             </Column>
             <Column id="5" name="V_ZIGYOBUID">
+              <Comment val="/J 事業部ID J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
                 <DbColumnName id="178"/>
@@ -85,6 +88,7 @@
               </PropertyList>
             </Column>
             <Column id="6" name="V_SYUTSUGANBI">
+              <Comment val="/J 出願日 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -93,6 +97,7 @@
               </PropertyList>
             </Column>
             <Column id="7" name="V_DAIHYOZUMEN">
+              <Comment val="/J 代表図面 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="3"/>
                 <DbColumnName id="178"/>
@@ -101,6 +106,7 @@
               </PropertyList>
             </Column>
             <Column id="8" name="V_KYOUGANSAKI">
+              <Comment val="/J 共願先名 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="4"/>
                 <StoredAs id="173" val="1"/>
@@ -110,6 +116,7 @@
               </PropertyList>
             </Column>
             <Column id="9" name="V_SYUBETSUID">
+              <Comment val="/J 種別ID J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
                 <DbColumnName id="178"/>
@@ -118,6 +125,7 @@
               </PropertyList>
             </Column>
             <Column id="10" name="V_SYUTSUGANID">
+              <Comment val="/J 出願ID J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
                 <DbColumnName id="178"/>
@@ -126,6 +134,7 @@
               </PropertyList>
             </Column>
             <Column id="11" name="V_SYUTSUGANNO">
+              <Comment val="/J 出願No J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="5"/>
                 <DbColumnName id="178"/>
@@ -134,6 +143,7 @@
               </PropertyList>
             </Column>
             <Column id="12" name="V_GAIYOU">
+              <Comment val="/J 概要 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="6"/>
                 <StoredAs id="173" val="1"/>
@@ -143,6 +153,7 @@
               </PropertyList>
             </Column>
             <Column id="13" name="V_DAIRININID">
+              <Comment val="/J 代理人ID J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
                 <DbColumnName id="178"/>
@@ -151,6 +162,7 @@
               </PropertyList>
             </Column>
             <Column id="14" name="V_KOUKAIID">
+              <Comment val="/J 公開略称ID J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
                 <DbColumnName id="178"/>
@@ -159,6 +171,7 @@
               </PropertyList>
             </Column>
             <Column id="15" name="V_KOUKAINO">
+              <Comment val="/J 公開No J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="7"/>
                 <StoredAs id="173" val="1"/>
@@ -168,6 +181,7 @@
               </PropertyList>
             </Column>
             <Column id="16" name="V_SHINSASEIKYUBI">
+              <Comment val="/J 審査請求日 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -176,6 +190,7 @@
               </PropertyList>
             </Column>
             <Column id="17" name="V_KYOZETSURIYUTSUUCHIBI1">
+              <Comment val="/J 拒絶理由通知日1 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -184,6 +199,7 @@
               </PropertyList>
             </Column>
             <Column id="18" name="V_KYOZETSURIYUTSUUCHIBI2">
+              <Comment val="/J 拒絶理由通知日2 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -192,6 +208,7 @@
               </PropertyList>
             </Column>
             <Column id="19" name="V_KYOZETSURIYUTSUUCHIBI3">
+              <Comment val="/J 拒絶理由通知日3 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -200,6 +217,7 @@
               </PropertyList>
             </Column>
             <Column id="20" name="V_KYOZETSURIYUTSUUCHIBI4">
+              <Comment val="/J 拒絶理由通知日4 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -208,6 +226,7 @@
               </PropertyList>
             </Column>
             <Column id="21" name="V_KYOZETSURIYUTSUUCHIBI5">
+              <Comment val="/J 拒絶理由通知日5 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -216,6 +235,7 @@
               </PropertyList>
             </Column>
             <Column id="22" name="V_KYOZETSUSATEIBI">
+              <Comment val="/J 拒絶査定日 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -224,6 +244,7 @@
               </PropertyList>
             </Column>
             <Column id="23" name="V_TOUROKUSATEIBI">
+              <Comment val="/J 登録査定日 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -232,6 +253,7 @@
               </PropertyList>
             </Column>
             <Column id="24" name="V_HUHUKUSHINPANSEIKYUBI">
+              <Comment val="/J 不服審判請求日 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -240,6 +262,7 @@
               </PropertyList>
             </Column>
             <Column id="25" name="V_HUHUKUSHNPANNO">
+              <Comment val="/J 不服審判No J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="9"/>
                 <StoredAs id="173" val="1"/>
@@ -249,6 +272,7 @@
               </PropertyList>
             </Column>
             <Column id="26" name="V_SHINZINHASSOUBI">
+              <Comment val="/J 審尋発送日 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -257,6 +281,7 @@
               </PropertyList>
             </Column>
             <Column id="27" name="V_KYOZETSURIYUUTSUUCHIBI6">
+              <Comment val="/J 拒絶理由通知日6 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -265,6 +290,7 @@
               </PropertyList>
             </Column>
             <Column id="28" name="V_KYOZETSURIYUUTSUUCHIBI7">
+              <Comment val="/J 拒絶理由通知日7 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -273,6 +299,7 @@
               </PropertyList>
             </Column>
             <Column id="29" name="V_SHINKETSUHASSOUBI">
+              <Comment val="/J 審決発送日 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -281,6 +308,7 @@
               </PropertyList>
             </Column>
             <Column id="30" name="V_SHINKETSUKEKKA">
+              <Comment val="/J 審決結果 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
                 <DbColumnName id="178"/>
@@ -289,6 +317,7 @@
               </PropertyList>
             </Column>
             <Column id="31" name="V_SHINSYUSOZYOUTEISYUTSUBI">
+              <Comment val="/J 訴状提出日 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -297,6 +326,7 @@
               </PropertyList>
             </Column>
             <Column id="32" name="V_TOUROKUBI">
+              <Comment val="/J 登録日 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -305,6 +335,7 @@
               </PropertyList>
             </Column>
             <Column id="33" name="V_TOUROKUNO">
+              <Comment val="/J 登録No J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="11"/>
                 <StoredAs id="173" val="1"/>
@@ -314,6 +345,7 @@
               </PropertyList>
             </Column>
             <Column id="34" name="V_SONZOKUKIKANMANRYOUBI">
+              <Comment val="/J 存続期間満了日 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -322,6 +354,7 @@
               </PropertyList>
             </Column>
             <Column id="35" name="V_NENKINKANRISYAID">
+              <Comment val="/J 年金管理者ID J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
                 <DbColumnName id="178"/>
@@ -330,6 +363,7 @@
               </PropertyList>
             </Column>
             <Column id="36" name="V_NENKINNOUHUZUMINENSUU">
+              <Comment val="/J 年金納付済年数 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="12"/>
                 <DbColumnName id="178"/>
@@ -338,6 +372,7 @@
               </PropertyList>
             </Column>
             <Column id="37" name="V_NENKINNOUHUTANI">
+              <Comment val="/J 年金納付単位 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="13"/>
                 <DbColumnName id="178"/>
@@ -346,6 +381,7 @@
               </PropertyList>
             </Column>
             <Column id="38" name="V_ZIKAITETSUDUKI">
+              <Comment val="/J 次回手続 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
                 <DbColumnName id="178"/>
@@ -354,6 +390,7 @@
               </PropertyList>
             </Column>
             <Column id="39" name="V_RINGINO">
+              <Comment val="/J 稟議書No J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="15"/>
                 <StoredAs id="173" val="1"/>
@@ -363,6 +400,7 @@
               </PropertyList>
             </Column>
             <Column id="40" name="V_PRERINGINO">
+              <Comment val="/J 前稟議書No J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="15"/>
                 <StoredAs id="173" val="1"/>
@@ -372,6 +410,7 @@
               </PropertyList>
             </Column>
             <Column id="41" name="V_ZIKAIHOUTEIKIGEN">
+              <Comment val="/J 次回法定期限 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -380,6 +419,7 @@
               </PropertyList>
             </Column>
             <Column id="42" name="V_SYURYOSYONINBI">
+              <Comment val="/J 終了承認日 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -388,6 +428,7 @@
               </PropertyList>
             </Column>
             <Column id="43" name="V_ANKENSYURYOBI">
+              <Comment val="/J 案件終了日 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -396,6 +437,7 @@
               </PropertyList>
             </Column>
             <Column id="44" name="V_SYURYOYOUIN">
+              <Comment val="/J 終了要因 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="81"/>
                 <DbColumnName id="178"/>
@@ -683,6 +725,7 @@
               </PropertyList>
             </Column>
             <Column id="76" name="V_KIZYUNBI">
+              <Comment val="/J 計算基準日 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -691,6 +734,7 @@
               </PropertyList>
             </Column>
             <Column id="77" name="V_NISSUU">
+              <Comment val="/J 日数 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="12"/>
                 <DbColumnName id="178"/>
@@ -699,6 +743,7 @@
               </PropertyList>
             </Column>
             <Column id="78" name="V_KIGENBI">
+              <Comment val="/J 期限日 J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="133"/>
                 <DbColumnName id="178"/>
@@ -707,6 +752,7 @@
               </PropertyList>
             </Column>
             <Column id="79" name="V_TAB">
+              <Comment val="/J タブ J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_ALPHA" id="1"/>
                 <Picture id="157" valUnicode="24"/>
@@ -715,7 +761,16 @@
                 <_FieldStyle id="276" val="1"/>
               </PropertyList>
             </Column>
+            <Column id="33554533" name="V_ERRORCODE">
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="88"/>
+                <DbColumnName id="178"/>
+                <Type id="179"/>
+                <UserType id="180"/>
+              </PropertyList>
+            </Column>
             <Column id="80" name="V_ERRORMESASGE">
+              <Comment val="/J エラーメッセージ J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_UNICODE" comp="3" id="1" obj="89"/>
                 <DbColumnName id="178"/>
@@ -724,8 +779,19 @@
               </PropertyList>
             </Column>
             <Column id="81" name="V_SYORIMODE">
+              <Comment val="/J 処理モード J/"/>
               <PropertyList model="FIELD">
                 <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="97"/>
+                <DbColumnName id="178"/>
+                <Type id="179"/>
+                <UserType id="180"/>
+              </PropertyList>
+            </Column>
+            <Column id="33554532" name="V_KAKUNIN_RES">
+              <Comment val="/J 確認ダイアログ　返値 J/"/>
+              <PropertyList model="FIELD">
+                <Model attr_obj="FIELD_ALPHA" comp="3" id="1" obj="35"/>
+                <StoredAs id="173" val="1"/>
                 <DbColumnName id="178"/>
                 <Type id="179"/>
                 <UserType id="180"/>
@@ -2177,6 +2243,12 @@
                 </Remark>
               </LogicLine>
               <LogicLine>
+                <Remark FlowIsn="33555326">
+                  <Type val="0"/>
+                  <Text val="//other"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
                 <Select FieldID="79" FlowIsn="98" id="79">
                   <Column val="79"/>
                   <Type val="V"/>
@@ -2184,6 +2256,19 @@
                   <IsParameter val="N"/>
                   <_DitIndexForToolkit val="58"/>
                   <DIFF_UPDATE val="T"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="33554533" FlowIsn="33555330" id="33554533">
+                  <Column val="33554533"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="Y"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
                   <Direction val="C"/>
@@ -2205,6 +2290,19 @@
               <LogicLine>
                 <Select FieldID="81" FlowIsn="100" id="81">
                   <Column val="81"/>
+                  <Type val="V"/>
+                  <ExposedToRoute val="N"/>
+                  <IsParameter val="N"/>
+                  <DIFF_UPDATE val="T"/>
+                  <PartOfDataview val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="S"/>
+                  <Direction val="C"/>
+                </Select>
+              </LogicLine>
+              <LogicLine>
+                <Select FieldID="33554532" FlowIsn="33555327" id="33554532">
+                  <Column val="33554532"/>
                   <Type val="V"/>
                   <ExposedToRoute val="N"/>
                   <IsParameter val="N"/>
@@ -2966,6 +3064,7 @@
           <LogicUnit id="9" propagate="78">
             <Level val="H"/>
             <Type val="U"/>
+            <Comment val="/J CMAS側に登録されているエラーメッセージを取得 J/"/>
             <Scope val="T"/>
             <EngineDirective val="S"/>
             <ShowMessage val="Y"/>
@@ -2978,8 +3077,30 @@
             <ExecuteOn_ val="O"/>
             <LogicLines>
               <LogicLine>
+                <Update FlowIsn="33555329">
+                  <FieldID val="33554533"/>
+                  <WithValue val="10"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
                 <Update FlowIsn="110">
                   <FieldID val="80"/>
+                  <WithValue val="7"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="33555328">
+                  <FieldID val="33554532"/>
                   <WithValue val="7"/>
                   <Incremental val="N"/>
                   <ForcedUpdate val="Y"/>
@@ -3022,6 +3143,38 @@
                 </BLOCK>
               </LogicLine>
               <LogicLine>
+                <CallTask FlowIsn="33555333">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="3" obj="33555104"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <Variable val="33554533"/>
+                      <Skip val="N"/>
+                    </Argument>
+                    <Argument>
+                      <Variable val="80"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+              <LogicLine>
+                <Remark FlowIsn="33555334">
+                  <Type val="2"/>
+                  <Text val="//CMASに登録されていないエラーメッセージはCHIZAIDBに登録されているか確認"/>
+                </Remark>
+              </LogicLine>
+              <LogicLine>
                 <STP Buttons="O" DefaultButton="1" ERR_LOG_DEF_CHG="N" Exp="9" FlowIsn="113" IMG_DEF_CHG="N" Image="E" Mode="W" TTL_DEF_CHG="N" TitleTxt="警告" VR_DISP="B">
                   <AppendToErrorLog val="N"/>
                   <Condition val="Y"/>
@@ -3043,7 +3196,44 @@
                 </Remark>
               </LogicLine>
               <LogicLine>
-                <CallTask FlowIsn="33554916">
+                <CallTask FlowIsn="33555222">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="3" obj="33555118"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <Expression val="33554472"/>
+                      <Skip val="N"/>
+                    </Argument>
+                    <Argument>
+                      <Expression val="33554473"/>
+                      <Skip val="N"/>
+                    </Argument>
+                    <Argument>
+                      <Variable val="33554532"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+              <LogicLine>
+                <BLOCK EndBlock="33555332" EndBlockSegment="33555332" FlowIsn="33555331" Type="I">
+                  <Condition Exp="33554474"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <CallTask FlowIsn="33555335">
                   <OperationType val="P"/>
                   <Event>
                     <EventType val="N"/>
@@ -3248,6 +3438,9 @@
                 </CallTask>
               </LogicLine>
               <LogicLine>
+                <END_BLK FlowIsn="33555332"/>
+              </LogicLine>
+              <LogicLine>
                 <RaiseEvent FlowIsn="116">
                   <Event>
                     <EventType val="U"/>
@@ -3334,7 +3527,55 @@
             <ExecuteOn_ val="O"/>
             <LogicLines>
               <LogicLine>
-                <CallTask FlowIsn="33555020">
+                <Update FlowIsn="33555479">
+                  <FieldID val="33554532"/>
+                  <WithValue val="7"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
+              </LogicLine>
+              <LogicLine>
+                <CallTask FlowIsn="33555482">
+                  <OperationType val="P"/>
+                  <Event>
+                    <EventType val="N"/>
+                  </Event>
+                  <TaskID comp="3" obj="33555118"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <Expression val="33554475"/>
+                      <Skip val="N"/>
+                    </Argument>
+                    <Argument>
+                      <Expression val="33554473"/>
+                      <Skip val="N"/>
+                    </Argument>
+                    <Argument>
+                      <Variable val="33554532"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+              <LogicLine>
+                <BLOCK EndBlock="33555481" EndBlockSegment="33555481" FlowIsn="33555480" Type="I">
+                  <Condition Exp="33554474"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </BLOCK>
+              </LogicLine>
+              <LogicLine>
+                <CallTask FlowIsn="33555483">
                   <OperationType val="T"/>
                   <Event>
                     <EventType val="N"/>
@@ -3350,7 +3591,7 @@
                 </CallTask>
               </LogicLine>
               <LogicLine>
-                <CallTask FlowIsn="33555021">
+                <CallTask FlowIsn="33555484">
                   <OperationType val="T"/>
                   <Event>
                     <EventType val="N"/>
@@ -3364,6 +3605,9 @@
                   <Modifier val="B"/>
                   <Direction val="C"/>
                 </CallTask>
+              </LogicLine>
+              <LogicLine>
+                <END_BLK FlowIsn="33555481"/>
               </LogicLine>
             </LogicLines>
           </LogicUnit>
@@ -4250,6 +4494,17 @@
                   <Modifier val="S"/>
                   <Direction val="C"/>
                 </Select>
+              </LogicLine>
+              <LogicLine>
+                <Update FlowIsn="33555485">
+                  <FieldID val="33554533"/>
+                  <WithValue val="10"/>
+                  <Incremental val="N"/>
+                  <ForcedUpdate val="Y"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </Update>
               </LogicLine>
               <LogicLine>
                 <Update FlowIsn="199">
@@ -6388,7 +6643,7 @@
             <ExpAttribute val="A"/>
           </Expression>
           <Expression id="8">
-            <ExpSyntax val="{0,80}&lt;>''"/>
+            <ExpSyntax val="{0,33554533}&lt;>0"/>
             <ExpAttribute val="B"/>
           </Expression>
           <Expression id="9">
@@ -6510,6 +6765,22 @@
           <Expression id="33554471">
             <ExpSyntax val="{0,1}=2"/>
             <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="33554472">
+            <ExpSyntax val="'入力された知財情報を登録します。'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="33554473">
+            <ExpSyntax val="'よろしいですか。'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="33554474">
+            <ExpSyntax val="{0,33554532}='Y'"/>
+            <ExpAttribute val="B"/>
+          </Expression>
+          <Expression id="33554475">
+            <ExpSyntax val="'表示されている知財情報を削除します。'"/>
+            <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
         <EVNT DESC="CLEAR" FORCE_EXIT="N" id="1">

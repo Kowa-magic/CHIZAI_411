@@ -1169,6 +1169,7 @@
       </PropertyList>
     </Column>
     <Column id="33554481" name="TOUROKUBI">
+      <Comment val="/J 登録日 J/"/>
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="47"/>
         <StoredAs id="173" val="19"/>
@@ -1179,6 +1180,7 @@
       </PropertyList>
     </Column>
     <Column id="33554482" name="TOUROKUZIKAN">
+      <Comment val="/J 登録時間 J/"/>
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_TIME" comp="3" id="1" obj="48"/>
         <StoredAs id="173" val="24"/>
@@ -1189,6 +1191,7 @@
       </PropertyList>
     </Column>
     <Column id="33554483" name="TOUROKUCD">
+      <Comment val="/J 登録CD J/"/>
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="49"/>
         <StoredAs id="173" val="4"/>
@@ -1199,6 +1202,7 @@
       </PropertyList>
     </Column>
     <Column id="33554484" name="TOUROKUID">
+      <Comment val="/J  登録IDJ/"/>
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" comp="3" id="1" obj="50"/>
         <StoredAs id="173" val="3"/>
@@ -1209,6 +1213,7 @@
       </PropertyList>
     </Column>
     <Column id="33554485" name="KOUSHINUBI">
+      <Comment val="/J 更新日 J/"/>
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_DATE" comp="3" id="1" obj="51"/>
         <StoredAs id="173" val="19"/>
@@ -1219,6 +1224,7 @@
       </PropertyList>
     </Column>
     <Column id="33554486" name="KOUSHINZIKAN">
+      <Comment val="/J 更新時間 J/"/>
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_TIME" comp="3" id="1" obj="52"/>
         <StoredAs id="173" val="24"/>
@@ -1229,6 +1235,7 @@
       </PropertyList>
     </Column>
     <Column id="33554487" name="KOUSHINTANMATSU">
+      <Comment val="/J 更新端末 J/"/>
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" comp="3" id="1" obj="53"/>
         <StoredAs id="173" val="3"/>
@@ -1239,6 +1246,7 @@
       </PropertyList>
     </Column>
     <Column id="33554488" name="KOUSHINCD">
+      <Comment val="/J 更新CD J/"/>
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="54"/>
         <StoredAs id="173" val="4"/>
@@ -1249,6 +1257,7 @@
       </PropertyList>
     </Column>
     <Column id="33554489" name="KOUSHINID">
+      <Comment val="/J 更新ID J/"/>
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" comp="3" id="1" obj="55"/>
         <StoredAs id="173" val="3"/>
@@ -2213,6 +2222,20 @@
         <_FieldPhysical DB_DEF_VAL_U="0" PIC_U="5Z" Size="4" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
+    <Column id="33554481" name="DAIHYOZUMEN">
+      <Comment val="/J 代表図面 J/"/>
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" comp="-1" id="1" obj="3"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="1"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178"/>
+        <Type id="179"/>
+        <UserType id="180"/>
+        <_Flip id="194"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" PIC_U="2P0" Size="1" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
+      </PropertyList>
+    </Column>
   </Columns>
 
   <Indexes>
@@ -2240,7 +2263,7 @@
   <WebS/>
 
 </DataObject> 
-<DataObject Comment="/J 請求項データワーク J/" PhysicalName="SEIKYUKO_0115_WRK" Resident="N" UniqueISNConvState="12" data_source="Memory" id="33554439" name="SEIKYUKO_0115_WRK">
+<DataObject Comment="/J 請求項データワーク J/" PhysicalName="SEIKYUKO_WRK" Resident="N" UniqueISNConvState="12" data_source="Memory" id="33554439" name="SEIKYUKO_WRK">
 
   <Encrypt val="N"/>
 
@@ -2262,6 +2285,7 @@
 
   <Columns>
     <Column id="33554448" name="SEIRINO">
+      <Comment val="/J 整理No J/"/>
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="1"/>
         <StoredAs id="173" val="1"/>
@@ -2274,189 +2298,22 @@
         <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="35" Size="35" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="1" translate="1"/>
       </PropertyList>
     </Column>
-    <Column id="33554433" name="SEIKYUKO1">
+    <Column id="33554449" name="MEISAIGYONO">
+      <Comment val="/J 明細行 J/"/>
       <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
+        <Model attr_obj="FIELD_NUMERIC" comp="3" id="1" obj="355"/>
+        <StoredAs id="173" val="4"/>
+        <Size id="174" val="2"/>
+        <Definition id="175" val="2"/>
         <DbColumnName id="178"/>
         <Type id="179"/>
         <UserType id="180"/>
         <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
+        <_FieldPhysical DB_DEF_VAL_U="0" PIC_U="4Z" Size="2" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
       </PropertyList>
     </Column>
-    <Column id="33554434" name="SEIKYUKO2">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554435" name="SEIKYUKO3">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554436" name="SEIKYUKO4">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554437" name="SEIKYUKO5">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554438" name="SEIKYUKO6">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554439" name="SEIKYUKO7">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554440" name="SEIKYUKO8">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554441" name="SEIKYUKO9">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554442" name="SEIKYUKO10">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554443" name="SEIKYUKO11">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554444" name="SEIKYUKO12">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554445" name="SEIKYUKO13">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554446" name="SEIKYUKO14">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554447" name="SEIKYUKO15">
+    <Column id="33554433" name="SEIKYUKO">
+      <Comment val="/J 請求項 J/"/>
       <PropertyList model="FIELD">
         <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
         <StoredAs id="173" val="1"/>
@@ -2490,242 +2347,6 @@
       </Segments>
     </Index>
   </Indexes>
-
-  <ForeignKeys/>
-
-  <WebS/>
-
-</DataObject> 
-<DataObject Comment="/J 請求項データワーク J/" PhysicalName="SEIKYUKO_1630_WRK" Resident="N" UniqueISNConvState="12" data_source="Memory" id="33554440" name="SEIKYUKO_1630_WRK">
-
-  <Encrypt val="N"/>
-
-  <Cache val="D"/>
-
-  <IdentifyRowModifications val="P"/>
-
-  <HasHint val="Y"/>
-
-  <CheckExistence val="D"/>
-
-  <ObjectType val="T"/>
-
-  <PositionIndex val="-1"/>
-
-  <MetaTreeRTIndex val="-1"/>
-
-  <Columns>
-    <Column id="33554448" name="SEIRINO">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="1"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="35"/>
-        <Definition id="175" val="2"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="35" Size="35" allowed_null="N" attribute="A" context_cookies="Y" database_definition="2" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554433" name="SEIKYUKO16">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554434" name="SEIKYUKO17">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554435" name="SEIKYUKO18">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554436" name="SEIKYUKO19">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554437" name="SEIKYUKO20">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554438" name="SEIKYUKO21">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554439" name="SEIKYUKO22">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554440" name="SEIKYUKO23">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554441" name="SEIKYUKO24">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554442" name="SEIKYUKO25">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554443" name="SEIKYUKO26">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554444" name="SEIKYUKO27">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554445" name="SEIKYUKO28">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554446" name="SEIKYUKO29">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-    <Column id="33554447" name="SEIKYUKO30">
-      <PropertyList model="FIELD">
-        <Model attr_obj="FIELD_ALPHA" comp="-1" id="1" obj="19"/>
-        <StoredAs id="173" val="1"/>
-        <Size id="174" val="2100"/>
-        <Definition id="175" val="1"/>
-        <DbColumnName id="178"/>
-        <Type id="179"/>
-        <UserType id="180"/>
-        <_Flip id="194"/>
-        <_FieldPhysical DB_DEF_VAL_U="''" PIC_U="2100" Size="2100" allowed_null="N" attribute="A" context_cookies="Y" database_definition="1" id="231" storage="1" translate="1"/>
-      </PropertyList>
-    </Column>
-  </Columns>
-
-  <Indexes/>
 
   <ForeignKeys/>
 
